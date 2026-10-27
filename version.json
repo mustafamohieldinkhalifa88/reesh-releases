@@ -1,0 +1,55 @@
+{
+    "version":  "2.8.1",
+    "build":  29,
+    "releaseDate":  "2026-10-27",
+    "minRequiredVersion":  "2.8.0",
+    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/latest/download/Reesh_setup.exe",
+    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/latest/download/Reesh.apk",
+    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/latest/download/Reesh_setup.exe",
+    "title":  "الإصدار الرسمي v2.8.1 — تحديثات الأداء والاستقرار الشامل",
+    "titleEn":  "Official Release v2.8.1 — Comprehensive Performance \u0026 Stability Updates",
+    "summary":  "إصدار إنتاجي جديد يتضمن منظومة التحديثات الذكية، وتحصين أمان التراخيص، وإصلاحات جذرية في الأداء ومزامنة الدورات والمزارع.",
+    "summaryEn":  "New production release featuring smart update engine, licensing security hardening, and core fixes for performance and cycle synchronization.",
+    "highlights":  [
+                       "منظومة التحديثات الذكية وفحص الإصدارات مباشرة من داخل إعدادات التطبيق",
+                       "تحصين شامل لساعة الجهاز ومنع التراجع الزمني أثناء العمل دون إنترنت",
+                       "تحديث محرك التقرير اليومي وتوحيد عزل بيانات الشركات",
+                       "تحسين سرعة الاستجابة واستقرار النماذج وقواعد البيانات"
+                   ],
+    "highlightsEn":  [
+                         "Smart in-app update engine with direct checks from settings",
+                         "Anti-clock rollback defense during offline operations",
+                         "Enhanced daily report engine and fortified multi-tenant company isolation",
+                         "Boosted performance and stability across all modules and database"
+                     ],
+    "changelog":  [
+                      {
+                          "category":  "الأمان والترخيص",
+                          "categoryEn":  "Security \u0026 Licensing",
+                          "items":  [
+                                        "درع حماية التراخيص السيادية على مستوى خادم Supabase",
+                                        "حماية التفعيل المحلي عبر التوقيع الرقمي ومقاومة التلاعب بالوقت"
+                                    ],
+                          "itemsEn":  [
+                                          "Server-side licensing shield on Supabase database",
+                                          "Digital signature \u0026 anti-rollback guard for local offline license verification"
+                                      ]
+                      },
+                      {
+                          "category":  "الاستقرار وإدارة المزارع",
+                          "categoryEn":  "Stability \u0026 Farm Management",
+                          "items":  [
+                                        "ضبط علاقة المهندس بالمزرعة ومنع الازدواجية",
+                                        "مرونة معالجة استثناءات حذف وتعديل العمال وسجلات الحضور",
+                                        "توحيد استخراج معرف الشركة ومنع توليد أي سجلات يتيمة"
+                                    ],
+                          "itemsEn":  [
+                                          "Strict 1-to-1 engineer-farm assignment with automatic unlinking",
+                                          "Error resilience for worker removal and attendance records",
+                                          "Unified 5-tier company resolution chain preventing orphan records"
+                                      ]
+                      }
+                  ],
+    "notes":  "يتم تثبيت التحديث بأمان تام فوق نسختك الحالية دون أي مساس ببياناتك المحفوظة.",
+    "notesEn":  "The update installs safely over your current installation without affecting any of your saved data."
+}
