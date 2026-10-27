@@ -1,13 +1,13 @@
 {
-    "version":  "2.8.1",
-    "build":  29,
+    "version":  "2.9.0",
+    "build":  30,
     "releaseDate":  "2026-10-28",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "الإصدار الرسمي v2.8.1 — تحديثات الأداء والاستقرار الشامل",
-    "titleEn":  "Official Release v2.8.1 — Comprehensive Performance \u0026 Stability Updates",
+    "title":  "الإصدار الرسمي v2.9.0 — تحديثات الأداء والاستقرار الشامل",
+    "titleEn":  "Official Release v2.9.0 — Comprehensive Performance \u0026 Stability Updates",
     "summary":  "إصدار إنتاجي جديد يتضمن منظومة التحديثات الذكية، وتحصين أمان التراخيص، وإصلاحات جذرية في الأداء ومزامنة الدورات والمزارع.",
     "summaryEn":  "New production release featuring smart update engine, licensing security hardening, and core fixes for performance and cycle synchronization.",
     "highlights":  [
