@@ -1,42 +1,42 @@
 {
-    "version":  "2.11.0",
-    "build":  32,
+    "version":  "2.12.0",
+    "build":  33,
     "releaseDate":  "2026-10-29",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "الإصدار الرسمي v2.11.0 — تحسينات البرنامج الصحي والأدوية",
-    "titleEn":  "Official Release v2.11.0 — Health Program \u0026 Medication Enhancements",
-    "summary":  "تحديث جديد يجعل متابعة وتسجيل الأدوية والتحصينات اليومية في المزرعة أسهل وأكثر مرونة.",
-    "summaryEn":  "A new update making daily farm medication and vaccination tracking easier and more flexible.",
+    "title":  "الإصدار الرسمي v2.12.0 — برامج صحية مخصصة للبياض والأمهات حتى 500 يوم",
+    "titleEn":  "Official Release v2.12.0 — Specialized Layer \u0026 Breeder Health Programs up to 500 Days",
+    "summary":  "تحديث شامل ومخصص لقطعان دجاج البياض وأمهات التسمين، يغطي الدورة كاملة حتى عمر 500 يوم مع مرونة أوسع في تسجيل المواعيد.",
+    "summaryEn":  "A comprehensive update dedicated to table egg layers and broiler breeders, covering the full cycle up to 500 days with expanded recording flexibility.",
     "highlights":  [
-                       "مرونة في مواعيد الأدوية والتحصينات: إذا تأخر إعطاء التحصينة أو الدواء ليوم أو يومين، يظل ظاهراً ومتاحاً للتسجيل في التقرير اليومي",
-                       "إمكانية التراجع عن التأكيد: إضافة زر لإلغاء تأكيد التنفيذ في البرنامج الصحي إذا تم الضغط عليه بالخطأ",
-                       "تذكير مسبق بالتحصينات: تنبيه يظهر في التقرير اليومي قبل موعد التحصينة بيوم كامل لتجهيز اللقاح وإيقاف المطهرات",
-                       "فصل الأدوية المكتوبة معاً بضغطة واحدة: عند كتابة أكثر من دواء بعلامة (+)، يمكنك فصل كل دواء في سطر مستقل بضغطة زر"
+                       "برنامج صحي مستقل لدجاج بيض المائدة حتى عمر 500 يوم، يركز على جودة قشرة البيض واستقرار الإنتاج والتحصينات الدورية",
+                       "برنامج صحي متكامل لأمهات التسمين حتى عمر 500 يوم، يشمل تحصينات المناعة المورثة للكتاكيت (الريو والأنيميا) ودعم خصوبة الديوك والفقس",
+                       "مرونة أوسع في تسجيل مواعيد الأدوية: أسبوع كامل (7 أيام) لقطعان البياض والأمهات في الأعمار الكبيرة بعد عمر 100 يوم",
+                       "حماية متقدمة لقشرة البيض وصحة الكبد والعظام مع تقدم عمر القطيع طوال فترة الإنتاج"
                    ],
     "highlightsEn":  [
-                         "Flexible medication \u0026 vaccine timing: Items delayed by 1–2 days remain visible and available to record in the daily report",
-                         "Undo confirmation button: Easily revert any item marked as done by mistake in the health program",
-                         "24-hour vaccination reminder: Advance notice in the daily report one day before scheduled vaccinations",
-                         "One-click split for combined drugs: Quickly separate multiple drugs typed with (+) into individual rows"
+                         "Dedicated health program for table egg layers up to 500 days focusing on shell quality, persistency, and periodic vaccines",
+                         "Comprehensive health program for broiler breeders up to 500 days with maternal immunity vaccines (Reo \u0026 CAV) and fertility boosters",
+                         "Expanded 7-day recording grace period for adult layer and breeder flocks past 100 days of age",
+                         "Advanced eggshell, bone, and liver protection throughout extended production cycles"
                      ],
     "changelog":  [
                       {
                           "category":  "البرنامج الصحي والأدوية",
                           "categoryEn":  "Health Program \u0026 Medications",
                           "items":  [
-                                        "مرونة في مواعيد الأدوية والتحصينات المتأخرة ليوم أو يومين حتى لا تضيع من التقرير اليومي",
-                                        "زر للتراجع عن تأكيد التنفيذ في شاشة البرنامج الصحي عند الضغط بالخطأ",
-                                        "تنبيه تذكيري قبل موعد التحصينة بـ 24 ساعة لتجهيز اللقاح وإيقاف المطهرات من المياه",
-                                        "زر فصل تلقائي عند كتابة أكثر من دواء بعلامة (+) لتوزيع كل دواء في سطر مستقل بسهولة"
+                                        "برنامج صحي مخصص لدجاج بيض المائدة يمتد حتى عمر 500 يوم لحماية قشرة البيض واستقرار الإنتاج",
+                                        "برنامج صحي متخصص لأمهات التسمين يشمل تحصينات نقل المناعة للكتاكيت ودعم الخصوبة والفقس حتى 500 يوم",
+                                        "مرونة تسجيل تصل إلى 7 أيام للأدوية والتحصينات في مرحلة الإنتاج للبياض والأمهات (بعد عمر 100 يوم)",
+                                        "إضافة المكملات والتحصينات الدورية لكبار الأعمار لدعم الكبد والعظام وقوة القشرة"
                                     ],
                           "itemsEn":  [
-                                          "2-day grace period for overdue medications and vaccinations in the daily report",
-                                          "Undo confirmation button in the health program details screen",
-                                          "24-hour advance reminder before scheduled vaccinations",
-                                          "One-click automatic split when typing multiple drugs with (+)"
+                                          "Dedicated table egg layer health program extended to 500 days for eggshell and production protection",
+                                          "Specialized broiler breeder protocol with maternal immunity transfer and fertility support up to 500 days",
+                                          "Extended 7-day recording flexibility for adult layer and breeder medications past 100 days",
+                                          "Periodic vaccines, calcium, and liver supplements for aging flocks in late lay"
                                       ]
                       }
                   ],
