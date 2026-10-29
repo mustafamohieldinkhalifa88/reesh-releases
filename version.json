@@ -1,52 +1,42 @@
 {
-    "version":  "2.10.0",
-    "build":  31,
+    "version":  "2.11.0",
+    "build":  32,
     "releaseDate":  "2026-10-29",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "الإصدار الرسمي v2.10.0 — تحديثات الأداء والاستقرار الشامل",
-    "titleEn":  "Official Release v2.10.0 — Comprehensive Performance \u0026 Stability Updates",
-    "summary":  "إصدار إنتاجي جديد يتضمن منظومة التحديثات الذكية، وتحصين أمان التراخيص، وإصلاحات جذرية في الأداء ومزامنة الدورات والمزارع.",
-    "summaryEn":  "New production release featuring smart update engine, licensing security hardening, and core fixes for performance and cycle synchronization.",
+    "title":  "الإصدار الرسمي v2.11.0 — تحسينات البرنامج الصحي والأدوية",
+    "titleEn":  "Official Release v2.11.0 — Health Program \u0026 Medication Enhancements",
+    "summary":  "تحديث جديد يجعل متابعة وتسجيل الأدوية والتحصينات اليومية في المزرعة أسهل وأكثر مرونة.",
+    "summaryEn":  "A new update making daily farm medication and vaccination tracking easier and more flexible.",
     "highlights":  [
-                       "منظومة التحديثات الذكية وفحص الإصدارات مباشرة من داخل إعدادات التطبيق",
-                       "تحصين شامل لساعة الجهاز ومنع التراجع الزمني أثناء العمل دون إنترنت",
-                       "تحديث محرك التقرير اليومي وتوحيد عزل بيانات الشركات",
-                       "تحسين سرعة الاستجابة واستقرار النماذج وقواعد البيانات"
+                       "مرونة في مواعيد الأدوية والتحصينات: إذا تأخر إعطاء التحصينة أو الدواء ليوم أو يومين، يظل ظاهراً ومتاحاً للتسجيل في التقرير اليومي",
+                       "إمكانية التراجع عن التأكيد: إضافة زر لإلغاء تأكيد التنفيذ في البرنامج الصحي إذا تم الضغط عليه بالخطأ",
+                       "تذكير مسبق بالتحصينات: تنبيه يظهر في التقرير اليومي قبل موعد التحصينة بيوم كامل لتجهيز اللقاح وإيقاف المطهرات",
+                       "فصل الأدوية المكتوبة معاً بضغطة واحدة: عند كتابة أكثر من دواء بعلامة (+)، يمكنك فصل كل دواء في سطر مستقل بضغطة زر"
                    ],
     "highlightsEn":  [
-                         "Smart in-app update engine with direct checks from settings",
-                         "Anti-clock rollback defense during offline operations",
-                         "Enhanced daily report engine and fortified multi-tenant company isolation",
-                         "Boosted performance and stability across all modules and database"
+                         "Flexible medication \u0026 vaccine timing: Items delayed by 1–2 days remain visible and available to record in the daily report",
+                         "Undo confirmation button: Easily revert any item marked as done by mistake in the health program",
+                         "24-hour vaccination reminder: Advance notice in the daily report one day before scheduled vaccinations",
+                         "One-click split for combined drugs: Quickly separate multiple drugs typed with (+) into individual rows"
                      ],
     "changelog":  [
                       {
-                          "category":  "الأمان والترخيص",
-                          "categoryEn":  "Security \u0026 Licensing",
+                          "category":  "البرنامج الصحي والأدوية",
+                          "categoryEn":  "Health Program \u0026 Medications",
                           "items":  [
-                                        "درع حماية التراخيص السيادية على مستوى خادم Supabase",
-                                        "حماية التفعيل المحلي عبر التوقيع الرقمي ومقاومة التلاعب بالوقت"
+                                        "مرونة في مواعيد الأدوية والتحصينات المتأخرة ليوم أو يومين حتى لا تضيع من التقرير اليومي",
+                                        "زر للتراجع عن تأكيد التنفيذ في شاشة البرنامج الصحي عند الضغط بالخطأ",
+                                        "تنبيه تذكيري قبل موعد التحصينة بـ 24 ساعة لتجهيز اللقاح وإيقاف المطهرات من المياه",
+                                        "زر فصل تلقائي عند كتابة أكثر من دواء بعلامة (+) لتوزيع كل دواء في سطر مستقل بسهولة"
                                     ],
                           "itemsEn":  [
-                                          "Server-side licensing shield on Supabase database",
-                                          "Digital signature \u0026 anti-rollback guard for local offline license verification"
-                                      ]
-                      },
-                      {
-                          "category":  "الاستقرار وإدارة المزارع",
-                          "categoryEn":  "Stability \u0026 Farm Management",
-                          "items":  [
-                                        "ضبط علاقة المهندس بالمزرعة ومنع الازدواجية",
-                                        "مرونة معالجة استثناءات حذف وتعديل العمال وسجلات الحضور",
-                                        "توحيد استخراج معرف الشركة ومنع توليد أي سجلات يتيمة"
-                                    ],
-                          "itemsEn":  [
-                                          "Strict 1-to-1 engineer-farm assignment with automatic unlinking",
-                                          "Error resilience for worker removal and attendance records",
-                                          "Unified 5-tier company resolution chain preventing orphan records"
+                                          "2-day grace period for overdue medications and vaccinations in the daily report",
+                                          "Undo confirmation button in the health program details screen",
+                                          "24-hour advance reminder before scheduled vaccinations",
+                                          "One-click automatic split when typing multiple drugs with (+)"
                                       ]
                       }
                   ],
