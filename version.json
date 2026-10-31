@@ -6,37 +6,53 @@
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "الإصدار الرسمي v2.13.0 — برامج صحية مخصصة للبياض والأمهات حتى 500 يوم",
-    "titleEn":  "Official Release v2.13.0 — Specialized Layer \u0026 Breeder Health Programs up to 500 Days",
-    "summary":  "تحديث شامل ومخصص لقطعان دجاج البياض وأمهات التسمين، يغطي الدورة كاملة حتى عمر 500 يوم مع مرونة أوسع في تسجيل المواعيد.",
-    "summaryEn":  "A comprehensive update dedicated to table egg layers and broiler breeders, covering the full cycle up to 500 days with expanded recording flexibility.",
+    "title":  "الإصدار الرسمي v2.13.0 — حساب صاحب الشركة، التسجيل الذاتي، منظومة الحضور، والتقارير المجمعة",
+    "titleEn":  "Official Release v2.13.0 — Company Owner Role, Self-Registration, Attendance System \u0026 Consolidated Reports",
+    "summary":  "تحديث كبرى لمنظومة ريش يضيف حساب صاحب الشركة، التسجيل الذاتي للعميل بكود التفعيل، منظومة حضور وانصراف شهرية شاملة للعمال والمهندسين والأطباء، تصدير تقارير الدورات المجمعة، والهوية البصرية السحابية.",
+    "summaryEn":  "A major milestone update introducing the Company Owner role, self-registration via activation code, an independent monthly attendance suite (workers, engineers, vets), consolidated cycle reports, and central cloud branding.",
     "highlights":  [
-                       "برنامج صحي مستقل لدجاج بيض المائدة حتى عمر 500 يوم، يركز على جودة قشرة البيض واستقرار الإنتاج والتحصينات الدورية",
-                       "برنامج صحي متكامل لأمهات التسمين حتى عمر 500 يوم، يشمل تحصينات المناعة المورثة للكتاكيت (الريو والأنيميا) ودعم خصوبة الديوك والفقس",
-                       "مرونة أوسع في تسجيل مواعيد الأدوية: أسبوع كامل (7 أيام) لقطعان البياض والأمهات في الأعمار الكبيرة بعد عمر 100 يوم",
-                       "حماية متقدمة لقشرة البيض وصحة الكبد والعظام مع تقدم عمر القطيع طوال فترة الإنتاج"
+                       "إضافة دور حساب صاحب الشركة (company_owner) بكامل الصلاحيات الإدارية والتشغيلية وربطه بتسجيل الشركات الذاتي",
+                       "التسجيل الذاتي المباشر للشركات عبر كود التفعيل الممنوح للعميل مع التحقق اللحظي والدخول التلقائي فور التفعيل",
+                       "منظومة حضور وانصراف شهرية مستقلة عن الدورات مع تنبيه بالأيام الفائتة وسجلات خاصة للعمال والمهندسين والأطباء البيطريين",
+                       "إتاحة زر تصدير وطباعة تقارير الدورات المجمعة (PDF) لكافة الرتب (المهندس، الطبيب، المشرف، مدير الحسابات)",
+                       "دعم الهوية البصرية وشعار الشركة متعدد الشركات المرفوع سحابياً عبر Cloudflare R2 المركزي وتضمينه في كافة تقارير الـ PDF"
                    ],
     "highlightsEn":  [
-                         "Dedicated health program for table egg layers up to 500 days focusing on shell quality, persistency, and periodic vaccines",
-                         "Comprehensive health program for broiler breeders up to 500 days with maternal immunity vaccines (Reo \u0026 CAV) and fertility boosters",
-                         "Expanded 7-day recording grace period for adult layer and breeder flocks past 100 days of age",
-                         "Advanced eggshell, bone, and liver protection throughout extended production cycles"
+                         "Introduction of the Company Owner role (company_owner) with full management parity and automatic self-registration",
+                         "Instant self-registration via activation code with real-time server validation and automated onboarding",
+                         "Independent monthly attendance suite decoupled from cycles covering workers, engineers, and veterinarians with missing-day alerts",
+                         "Consolidated cycle PDF export available across all roles (Engineer, Vet, Admin, Account Manager, Owner)",
+                         "Multi-tenant company logo branding with central Cloudflare R2 cloud integration across all generated PDF reports"
                      ],
     "changelog":  [
                       {
-                          "category":  "البرنامج الصحي والأدوية",
-                          "categoryEn":  "Health Program \u0026 Medications",
+                          "category":  "إدارة الأدوار والتسجيل الذاتي",
+                          "categoryEn":  "Roles \u0026 Self-Registration",
                           "items":  [
-                                        "برنامج صحي مخصص لدجاج بيض المائدة يمتد حتى عمر 500 يوم لحماية قشرة البيض واستقرار الإنتاج",
-                                        "برنامج صحي متخصص لأمهات التسمين يشمل تحصينات نقل المناعة للكتاكيت ودعم الخصوبة والفقس حتى 500 يوم",
-                                        "مرونة تسجيل تصل إلى 7 أيام للأدوية والتحصينات في مرحلة الإنتاج للبياض والأمهات (بعد عمر 100 يوم)",
-                                        "إضافة المكملات والتحصينات الدورية لكبار الأعمار لدعم الكبد والعظام وقوة القشرة"
+                                        "نوع حساب جديد لمالك المنشأة (صاحب الشركة) وتثبيت المسمى الوظيفي أسفل الاسم في كافة الشاشات",
+                                        "معاملة تسجيل ذاتي ذرية وآمنة عبر أكواد التفعيل دون تدخل يدوي من المطور",
+                                        "أداة توليد التراخيص وإدارة الأكواد المحدثة تدعم التسجيل الذاتي لجميع الباقات"
                                     ],
                           "itemsEn":  [
-                                          "Dedicated table egg layer health program extended to 500 days for eggshell and production protection",
-                                          "Specialized broiler breeder protocol with maternal immunity transfer and fertility support up to 500 days",
-                                          "Extended 7-day recording flexibility for adult layer and breeder medications past 100 days",
-                                          "Periodic vaccines, calcium, and liver supplements for aging flocks in late lay"
+                                          "New Company Owner role with explicit role presentation badges beneath the user name across all screens",
+                                          "Atomic self-registration transaction via activation codes requiring zero manual developer intervention",
+                                          "Updated desktop Activation Manager tool supporting self-registration generation across all tiers"
+                                      ]
+                      },
+                      {
+                          "category":  "الحضور والانصراف والتقارير",
+                          "categoryEn":  "Attendance \u0026 Reports",
+                          "items":  [
+                                        "سجلات حضور يومية وشهرية مجمعة للعمال والمهندسين الزراعيين والأطباء البيطريين",
+                                        "صلاحيات كاملة لمدير الحسابات للاطلاع وتصدير كافة تقارير الحضور بمرونة زمنية (يوم، فترة، شهر)",
+                                        "تصدير تقرير مجمع لكامل الدورة الإنتاجية بضغطة زر واحدة",
+                                        "إدراج لوجو الشركة المخصص بجوار لوجو ريش الرسمي في ترويسات كافة وثائق الـ PDF"
+                                    ],
+                          "itemsEn":  [
+                                          "Unified daily and consolidated monthly attendance sheets for workers, engineers, and veterinarians",
+                                          "Full read-and-export capabilities for account managers covering all attendance logs by date range or month",
+                                          "One-click consolidated cycle PDF report generation across the flock lifecycle",
+                                          "Harmonized company logo placement beside the official Reesh logo across all PDF exports"
                                       ]
                       }
                   ],
