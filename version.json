@@ -1,13 +1,13 @@
 {
-    "version":  "2.13.0",
-    "build":  35,
+    "version":  "2.14.0",
+    "build":  36,
     "releaseDate":  "2026-10-31",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "الإصدار الرسمي v2.13.0 — حساب صاحب الشركة، التسجيل الذاتي، منظومة الحضور، والتقارير المجمعة",
-    "titleEn":  "Official Release v2.13.0 — Company Owner Role, Self-Registration, Attendance System \u0026 Consolidated Reports",
+    "title":  "الإصدار الرسمي v2.14.0 — حساب صاحب الشركة، التسجيل الذاتي، منظومة الحضور، والتقارير المجمعة",
+    "titleEn":  "Official Release v2.14.0 — Company Owner Role, Self-Registration, Attendance System \u0026 Consolidated Reports",
     "summary":  "تحديث كبرى لمنظومة ريش يضيف حساب صاحب الشركة، التسجيل الذاتي للعميل بكود التفعيل، منظومة حضور وانصراف شهرية شاملة للعمال والمهندسين والأطباء، تصدير تقارير الدورات المجمعة، والهوية البصرية السحابية.",
     "summaryEn":  "A major milestone update introducing the Company Owner role, self-registration via activation code, an independent monthly attendance suite (workers, engineers, vets), consolidated cycle reports, and central cloud branding.",
     "highlights":  [
