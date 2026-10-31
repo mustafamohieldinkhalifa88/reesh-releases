@@ -1,6 +1,6 @@
 {
     "version":  "2.13.0",
-    "build":  34,
+    "build":  35,
     "releaseDate":  "2026-10-31",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
@@ -13,46 +13,58 @@
     "highlights":  [
                        "إضافة دور حساب صاحب الشركة (company_owner) بكامل الصلاحيات الإدارية والتشغيلية وربطه بتسجيل الشركات الذاتي",
                        "التسجيل الذاتي المباشر للشركات عبر كود التفعيل الممنوح للعميل مع التحقق اللحظي والدخول التلقائي فور التفعيل",
-                       "منظومة حضور وانصراف شهرية مستقلة عن الدورات مع تنبيه بالأيام الفائتة وسجلات خاصة للعمال والمهندسين والأطباء البيطريين",
+                       "دعم تعدد المهندسين الزراعيين لنفس المزرعة (Co-Engineer) والاستبدال الذكي مع الحفظ التاريخي الكامل وإيقاف الحساب اللحظي",
+                       "ترويسة قياسية موحدة لكافة تقارير الـ PDF باللغتين العربية والإنجليزية مع إدراج شعار الشركة في تقارير العمال",
+                       "احتساب تناسبي عادل لأيام الحضور (Prorated Attendance) للمهندسين المستبدلين أو المعينين حديثاً",
+                       "تعريب وترجمة شاملة بنسبة 100% لكافة الشاشات والنوافذ والتقارير عند اختيار اللغة الإنجليزية",
                        "إتاحة زر تصدير وطباعة تقارير الدورات المجمعة (PDF) لكافة الرتب (المهندس، الطبيب، المشرف، مدير الحسابات)",
                        "دعم الهوية البصرية وشعار الشركة متعدد الشركات المرفوع سحابياً عبر Cloudflare R2 المركزي وتضمينه في كافة تقارير الـ PDF"
                    ],
     "highlightsEn":  [
                          "Introduction of the Company Owner role (company_owner) with full management parity and automatic self-registration",
                          "Instant self-registration via activation code with real-time server validation and automated onboarding",
-                         "Independent monthly attendance suite decoupled from cycles covering workers, engineers, and veterinarians with missing-day alerts",
+                         "Multi-engineer farm assignment (Co-Engineer) and smart replacement with instant revocation and historical preservation",
+                         "Standardized tripartite PDF header in Arabic and English including company logo on worker attendance reports",
+                         "Prorated attendance calculation for replaced and newly assigned engineers to maintain mathematical equity",
+                         "100% full bilingual localization across all screens, dialogs, and reports in Arabic and English",
                          "Consolidated cycle PDF export available across all roles (Engineer, Vet, Admin, Account Manager, Owner)",
                          "Multi-tenant company logo branding with central Cloudflare R2 cloud integration across all generated PDF reports"
                      ],
     "changelog":  [
                       {
-                          "category":  "إدارة الأدوار والتسجيل الذاتي",
-                          "categoryEn":  "Roles \u0026 Self-Registration",
+                          "category":  "إدارة الأدوار والتعيينات والتسجيل",
+                          "categoryEn":  "Roles, Assignments \u0026 Registration",
                           "items":  [
                                         "نوع حساب جديد لمالك المنشأة (صاحب الشركة) وتثبيت المسمى الوظيفي أسفل الاسم في كافة الشاشات",
                                         "معاملة تسجيل ذاتي ذرية وآمنة عبر أكواد التفعيل دون تدخل يدوي من المطور",
-                                        "أداة توليد التراخيص وإدارة الأكواد المحدثة تدعم التسجيل الذاتي لجميع الباقات"
+                                        "إمكانية تعيين أكثر من مهندس زراعي لنفس المزرعة (Co-Engineer) مع كامل الصلاحيات بالـ RLS",
+                                        "نظام استبدال ذكي للمهندس السابق مع كشف العهد النقدية المفتوحة والإيقاف الفوري للجلسة النشطة",
+                                        "أداة توليد التراخيص وإدارة الأكواد المحدثة Reesh Activation Manager تدعم التسجيل الذاتي لجميع الباقات"
                                     ],
                           "itemsEn":  [
                                           "New Company Owner role with explicit role presentation badges beneath the user name across all screens",
                                           "Atomic self-registration transaction via activation codes requiring zero manual developer intervention",
+                                          "Multi-engineer farm assignment with seamless Row-Level Security (RLS) data access for co-engineers",
+                                          "Smart engineer replacement lifecycle with open custody warning detection and instant session termination",
                                           "Updated desktop Activation Manager tool supporting self-registration generation across all tiers"
                                       ]
                       },
                       {
-                          "category":  "الحضور والانصراف والتقارير",
-                          "categoryEn":  "Attendance \u0026 Reports",
+                          "category":  "التقارير وترويسات الـ PDF الموحدة",
+                          "categoryEn":  "Reports \u0026 Standardized PDF Headers",
                           "items":  [
-                                        "سجلات حضور يومية وشهرية مجمعة للعمال والمهندسين الزراعيين والأطباء البيطريين",
+                                        "ترويسة موحدة ثلاثية الأعمدة (شعار ريش، النصوص الثلاثة، شعار الشركة) تنضبط تلقائياً حسب لغة التقرير",
+                                        "إدراج شعار الشركة واسمها في كافة تقارير حضور وانصراف العمال اليومية والمجمعة والمفصلة",
+                                        "احتساب تناسبي دقيق لأيام الحضور (Prorated Days) للمهندسين المستبدلين أو المعينين منتصف الشهر",
                                         "صلاحيات كاملة لمدير الحسابات للاطلاع وتصدير كافة تقارير الحضور بمرونة زمنية (يوم، فترة، شهر)",
-                                        "تصدير تقرير مجمع لكامل الدورة الإنتاجية بضغطة زر واحدة",
-                                        "إدراج لوجو الشركة المخصص بجوار لوجو ريش الرسمي في ترويسات كافة وثائق الـ PDF"
+                                        "تصدير تقرير مجمع لكامل الدورة الإنتاجية بضغطة زر واحدة لكافة رتب النظام"
                                     ],
                           "itemsEn":  [
-                                          "Unified daily and consolidated monthly attendance sheets for workers, engineers, and veterinarians",
+                                          "Standardized tripartite header (Reesh logo, 3-line info, company logo) dynamically aligning per language",
+                                          "Company logo and name included across all worker daily and monthly attendance reports",
+                                          "Prorated attendance calculation for engineers replaced or appointed mid-month for audit compliance",
                                           "Full read-and-export capabilities for account managers covering all attendance logs by date range or month",
-                                          "One-click consolidated cycle PDF report generation across the flock lifecycle",
-                                          "Harmonized company logo placement beside the official Reesh logo across all PDF exports"
+                                          "One-click consolidated cycle PDF report generation across the flock lifecycle"
                                       ]
                       }
                   ],
