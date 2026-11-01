@@ -1,34 +1,34 @@
 {
-    "version":  "2.15.0",
-    "build":  37,
+    "version":  "2.16.0",
+    "build":  38,
     "releaseDate":  "2026-11-01",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "الإصدار الرسمي v2.15.0 — إنشاء حسابات الأطباء والمشرفين، وتحديث أدلة التشغيل الشاملة",
-    "titleEn":  "Official Release v2.15.0 — Supervising Vet \u0026 Owner Account Creation \u0026 Comprehensive User Manuals",
-    "summary":  "تحديث هام يتيح لصاحب الشركة والسوبر أدمن اختيار نوع الحساب (طبيب بيطري، طبيب مشرف، صاحب شركة) من شاشة إدارة الأطباء، مع التحديد الذكي للمزارع والصلاحيات، ومزامنة أدلة التشغيل الشاملة.",
-    "summaryEn":  "A key update allowing company owners and super admins to create supervising vets and owners directly from the vet management screen, alongside smart farm isolation and dedicated user manuals.",
+    "title":  "الإصدار الرسمي v2.16.0 — إضافة صاحب شركة مباشرة من لوحة السوبر أدمن، وتطوير صلاحيات الإدارة",
+    "titleEn":  "Official Release v2.16.0 — Direct Company Owner Creation from Super Admin \u0026 Role Management Enhancements",
+    "summary":  "تحديث هام يتيح للسوبر أدمن إضافة صاحب شركة مباشرة بنقرة زر من بطاقة الشركة مع تثبيت الدور تلقائياً، إلى جانب التحديد الذكي للمزارع والصلاحيات، ومزامنة أدلة التشغيل الشاملة.",
+    "summaryEn":  "A key update enabling super admins to create company owners directly from company cards with locked role assignment, alongside smart farm isolation and complete operations manuals.",
     "highlights":  [
+                       "إضافة زر مباشر لإنشاء صاحب الشركة من بطاقة المنشأة بلوحة تحكم السوبر أدمن مع التثبيت التلقائي للدور",
                        "إتاحة خيار نوع الحساب (طبيب بيطري / طبيب مشرف / صاحب شركة) من شاشة إدارة الأطباء",
                        "الإخفاء الذكي لقائمة المزارع ومفتاح الصلاحيات للأدوار الإشرافية الشاملة (المشرف والمالك)",
                        "توسيع صلاحية إنشاء الأطباء (canCreateVets) لتشمل السوبر أدمن والمالك والمشرف والبيطري المفوض",
                        "تضمين دليلي المستخدم والتشغيل الشاملين (العربي والإنجليزي) بجودة متجهات 300+ DPI وروابط التحميل المباشرة",
                        "إضافة دور حساب صاحب الشركة (company_owner) بكامل الصلاحيات الإدارية والتشغيلية وربطه بتسجيل الشركات الذاتي",
                        "التسجيل الذاتي المباشر للشركات عبر كود التفعيل الممنوح للعميل مع التحقق اللحظي والدخول التلقائي فور التفعيل",
-                       "دعم تعدد المهندسين الزراعيين لنفس المزرعة (Co-Engineer) والاستبدال الذكي مع الحفظ التاريخي الكامل وإيقاف الحساب اللحظي",
-                       "ترويسة قياسية موحدة لكافة تقارير الـ PDF باللغتين العربية والإنجليزية مع إدراج شعار الشركة في تقارير العمال"
+                       "دعم تعدد المهندسين الزراعيين لنفس المزرعة (Co-Engineer) والاستبدال الذكي مع الحفظ التاريخي الكامل وإيقاف الحساب اللحظي"
                    ],
     "highlightsEn":  [
+                         "Direct action button to create Company Owner from company card in Super Admin dashboard with role lock",
                          "Direct account type selection (Veterinarian / Supervising Vet / Company Owner) in Add Vet screen",
                          "Smart UI adaptation auto-hiding assigned farms and permission toggles for supervisory roles",
                          "Expanded canCreateVets permission matrix for super admin, owner, supervising vet, and authorized vets",
                          "Inclusion of high-resolution 300+ DPI comprehensive user operation manuals in Arabic and English",
                          "Introduction of the Company Owner role (company_owner) with full management parity and automatic self-registration",
                          "Instant self-registration via activation code with real-time server validation and automated onboarding",
-                         "Multi-engineer farm assignment (Co-Engineer) and smart replacement with instant revocation and historical preservation",
-                         "Standardized tripartite PDF header in Arabic and English including company logo on worker attendance reports"
+                         "Multi-engineer farm assignment (Co-Engineer) and smart replacement with instant revocation and historical preservation"
                      ],
     "changelog":  [
                       {
