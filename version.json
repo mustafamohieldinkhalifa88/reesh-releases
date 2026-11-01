@@ -1,70 +1,54 @@
 {
-    "version":  "2.16.0",
-    "build":  38,
+    "version":  "2.17.0",
+    "build":  39,
     "releaseDate":  "2026-11-01",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "الإصدار الرسمي v2.16.0 — إضافة صاحب شركة مباشرة من لوحة السوبر أدمن، وتطوير صلاحيات الإدارة",
-    "titleEn":  "Official Release v2.16.0 — Direct Company Owner Creation from Super Admin \u0026 Role Management Enhancements",
-    "summary":  "تحديث هام يتيح للسوبر أدمن إضافة صاحب شركة مباشرة بنقرة زر من بطاقة الشركة مع تثبيت الدور تلقائياً، إلى جانب التحديد الذكي للمزارع والصلاحيات، ومزامنة أدلة التشغيل الشاملة.",
-    "summaryEn":  "A key update enabling super admins to create company owners directly from company cards with locked role assignment, alongside smart farm isolation and complete operations manuals.",
+    "title":  "منظومة ريش v2.17.0 — تعزيز أدوار الإدارة الطبية والإشرافية الميدانية",
+    "titleEn":  "Reesh ERP v2.17.0 — Enhanced Medical Supervision \u0026 Operational Roles",
+    "summary":  "تحديث تشغيلي يمنح إدارة المزرعة مرونة إضافة وتعيين الطبيب المشرف مع الضبط التلقائي للصلاحيات والمزارع، وتحديث أدلة التشغيل الشاملة.",
+    "summaryEn":  "An operational release providing farm management with flexible supervising vet onboarding, automated farm isolation, and certified user manuals.",
     "highlights":  [
-                       "إضافة زر مباشر لإنشاء صاحب الشركة من بطاقة المنشأة بلوحة تحكم السوبر أدمن مع التثبيت التلقائي للدور",
-                       "إتاحة خيار نوع الحساب (طبيب بيطري / طبيب مشرف / صاحب شركة) من شاشة إدارة الأطباء",
-                       "الإخفاء الذكي لقائمة المزارع ومفتاح الصلاحيات للأدوار الإشرافية الشاملة (المشرف والمالك)",
-                       "توسيع صلاحية إنشاء الأطباء (canCreateVets) لتشمل السوبر أدمن والمالك والمشرف والبيطري المفوض",
-                       "تضمين دليلي المستخدم والتشغيل الشاملين (العربي والإنجليزي) بجودة متجهات 300+ DPI وروابط التحميل المباشرة",
-                       "إضافة دور حساب صاحب الشركة (company_owner) بكامل الصلاحيات الإدارية والتشغيلية وربطه بتسجيل الشركات الذاتي",
-                       "التسجيل الذاتي المباشر للشركات عبر كود التفعيل الممنوح للعميل مع التحقق اللحظي والدخول التلقائي فور التفعيل",
-                       "دعم تعدد المهندسين الزراعيين لنفس المزرعة (Co-Engineer) والاستبدال الذكي مع الحفظ التاريخي الكامل وإيقاف الحساب اللحظي"
+                       "إضافة وتعيين الطبيب المشرف (Supervising Vet) بإشراف شامل على كامل مزارع المنشأة وإدارة الأطباء",
+                       "التكييف الذكي للواجهات بإخفاء قوائم المزارع للأدوار الإشرافية العليا لمنع التداخل وتسهيل العمل",
+                       "إدراج دليلي المستخدم والتشغيل الشاملين (عربي وإنجليزي) بجودة متجهات فائقة 300+ DPI للطباعة والمتابعة",
+                       "تحسينات عامة على سرعة استجابة التطبيق واستقرار المزامنة السحابية اللحظية"
                    ],
     "highlightsEn":  [
-                         "Direct action button to create Company Owner from company card in Super Admin dashboard with role lock",
-                         "Direct account type selection (Veterinarian / Supervising Vet / Company Owner) in Add Vet screen",
-                         "Smart UI adaptation auto-hiding assigned farms and permission toggles for supervisory roles",
-                         "Expanded canCreateVets permission matrix for super admin, owner, supervising vet, and authorized vets",
-                         "Inclusion of high-resolution 300+ DPI comprehensive user operation manuals in Arabic and English",
-                         "Introduction of the Company Owner role (company_owner) with full management parity and automatic self-registration",
-                         "Instant self-registration via activation code with real-time server validation and automated onboarding",
-                         "Multi-engineer farm assignment (Co-Engineer) and smart replacement with instant revocation and historical preservation"
+                         "Supervising Vet onboarding with company-wide farm oversight and medical staff management",
+                         "Intelligent UI adaptation auto-hiding farm selectors for supervisory roles to streamline workflows",
+                         "Official certified 24-page farm operational manuals in Arabic and English with direct downloads",
+                         "General performance optimizations and real-time cloud sync stability enhancements"
                      ],
     "changelog":  [
                       {
-                          "category":  "إدارة الأدوار والتعيينات والتسجيل",
-                          "categoryEn":  "Roles, Assignments \u0026 Registration",
+                          "category":  "الأدوار والصلاحيات الميدانية",
+                          "categoryEn":  "Operational Roles \u0026 Permissions",
                           "items":  [
-                                        "نوع حساب جديد لمالك المنشأة (صاحب الشركة) وتثبيت المسمى الوظيفي أسفل الاسم في كافة الشاشات",
-                                        "معاملة تسجيل ذاتي ذرية وآمنة عبر أكواد التفعيل دون تدخل يدوي من المطور",
-                                        "إمكانية تعيين أكثر من مهندس زراعي لنفس المزرعة (Co-Engineer) مع كامل الصلاحيات بالـ RLS",
-                                        "نظام استبدال ذكي للمهندس السابق مع كشف العهد النقدية المفتوحة والإيقاف الفوري للجلسة النشطة",
-                                        "أداة توليد التراخيص وإدارة الأكواد المحدثة Reesh Activation Manager تدعم التسجيل الذاتي لجميع الباقات"
+                                        "خيار مباشر لإضافة طبيب مشرف مع شرح صلاحياته التنفيذية على مزارع الشركة",
+                                        "إخفاء تلقائي للمزارع المعينة ومفتاح الصلاحيات عند تعيين المشرف لشمولية سلطته",
+                                        "تحديث مصفوفة إنشاء الطواقم الطبية لصاحب المنشأة والمشرفين"
                                     ],
                           "itemsEn":  [
-                                          "New Company Owner role with explicit role presentation badges beneath the user name across all screens",
-                                          "Atomic self-registration transaction via activation codes requiring zero manual developer intervention",
-                                          "Multi-engineer farm assignment with seamless Row-Level Security (RLS) data access for co-engineers",
-                                          "Smart engineer replacement lifecycle with open custody warning detection and instant session termination",
-                                          "Updated desktop Activation Manager tool supporting self-registration generation across all tiers"
+                                          "Direct selection to add a Supervising Vet with clear operational authority",
+                                          "Automated isolation hiding specific farm selectors for company-wide supervisors",
+                                          "Updated medical team management matrix for owners and supervisors"
                                       ]
                       },
                       {
-                          "category":  "التقارير وترويسات الـ PDF الموحدة",
-                          "categoryEn":  "Reports \u0026 Standardized PDF Headers",
+                          "category":  "أدلة التشغيل وتجربة المستخدم",
+                          "categoryEn":  "User Guides \u0026 Experience",
                           "items":  [
-                                        "ترويسة موحدة ثلاثية الأعمدة (شعار ريش، النصوص الثلاثة، شعار الشركة) تنضبط تلقائياً حسب لغة التقرير",
-                                        "إدراج شعار الشركة واسمها في كافة تقارير حضور وانصراف العمال اليومية والمجمعة والمفصلة",
-                                        "احتساب تناسبي دقيق لأيام الحضور (Prorated Days) للمهندسين المستبدلين أو المعينين منتصف الشهر",
-                                        "صلاحيات كاملة لمدير الحسابات للاطلاع وتصدير كافة تقارير الحضور بمرونة زمنية (يوم، فترة، شهر)",
-                                        "تصدير تقرير مجمع لكامل الدورة الإنتاجية بضغطة زر واحدة لكافة رتب النظام"
+                                        "تحديث دليلي المستخدم (24 صفحة) بكافة خطوات العمل اليومية وسيناريو أول 15 دقيقة",
+                                        "روابط تنزيل مباشرة وسريعة للمثبت وتطبيق الأندرويد",
+                                        "تحسين التوافق البصري والطباعي على أجهزة الكمبيوتر والهواتف الذكية"
                                     ],
                           "itemsEn":  [
-                                          "Standardized tripartite header (Reesh logo, 3-line info, company logo) dynamically aligning per language",
-                                          "Company logo and name included across all worker daily and monthly attendance reports",
-                                          "Prorated attendance calculation for engineers replaced or appointed mid-month for audit compliance",
-                                          "Full read-and-export capabilities for account managers covering all attendance logs by date range or month",
-                                          "One-click consolidated cycle PDF report generation across the flock lifecycle"
+                                          "Updated 24-page comprehensive manuals covering daily barn operations and quick-start",
+                                          "Direct verified download links for Windows installer and Android APK",
+                                          "Enhanced layout and print fidelity across desktop and mobile devices"
                                       ]
                       }
                   ],
