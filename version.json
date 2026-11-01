@@ -1,40 +1,40 @@
 {
-    "version":  "2.18.0",
-    "build":  40,
+    "version":  "2.19.0",
+    "build":  41,
     "releaseDate":  "2026-11-01",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "منظومة ريش v2.18.0 — تعزيز أدوار الإدارة الطبية والإشرافية الميدانية",
-    "titleEn":  "Reesh ERP v2.18.0 — Enhanced Medical Supervision \u0026 Operational Roles",
-    "summary":  "تحديث تشغيلي يمنح إدارة المزرعة مرونة إضافة وتعيين الطبيب المشرف مع الضبط التلقائي للصلاحيات والمزارع، وتحديث أدلة التشغيل الشاملة.",
-    "summaryEn":  "An operational release providing farm management with flexible supervising vet onboarding, automated farm isolation, and certified user manuals.",
+    "title":  "منظومة ريش v2.19.0 — تحصين أمان المنشأة، رفع الشعار السحابي، واستقرار العمليات الميدانية",
+    "titleEn":  "Reesh ERP v2.19.0 — Enterprise Security Hardening, Cloud Logo Storage \u0026 Field Stability",
+    "summary":  "تحديث أمني وتشغيلي شامل يوفر رفع شعارات المنشآت سحابياً فورياً، وتحصين إدارة الطواقم الطبية والمالية، وتعزيز استقرار المزامنة وسرعة الاستجابة.",
+    "summaryEn":  "A comprehensive security and operational release delivering direct cloud logo storage, fortified medical and financial staff controls, and maximized sync stability.",
     "highlights":  [
-                       "إضافة وتعيين الطبيب المشرف (Supervising Vet) بإشراف شامل على كامل مزارع المنشأة وإدارة الأطباء",
-                       "التكييف الذكي للواجهات بإخفاء قوائم المزارع للأدوار الإشرافية العليا لمنع التداخل وتسهيل العمل",
-                       "إدراج دليلي المستخدم والتشغيل الشاملين (عربي وإنجليزي) بجودة متجهات فائقة 300+ DPI للطباعة والمتابعة",
-                       "تحسينات عامة على سرعة استجابة التطبيق واستقرار المزامنة السحابية اللحظية"
+                       "تفعيل الرفع والتخزين السحابي المباشر لشعارات الشركات مع تحسين ضغط الصور وسرعة العرض",
+                       "تحصين سيادي لأدوار المنشأة وضبط صلاحيات الاعتماد المالي لكشوف العهد وسندات القبض والصرف",
+                       "استقرار فني تام لواجهة تسجيل الدخول والتوافق مع شاشات الهواتف والأجهزة اللوحية الضيقة",
+                       "إدراج دليلي المستخدم والتشغيل الشاملين (عربي وإنجليزي) وروابط التحميل المباشرة الفورية"
                    ],
     "highlightsEn":  [
-                         "Supervising Vet onboarding with company-wide farm oversight and medical staff management",
-                         "Intelligent UI adaptation auto-hiding farm selectors for supervisory roles to streamline workflows",
-                         "Official certified 24-page farm operational manuals in Arabic and English with direct downloads",
-                         "General performance optimizations and real-time cloud sync stability enhancements"
+                         "Direct cloud logo upload and storage with automatic compression and instant display",
+                         "Fortified enterprise roles and strict financial authorization for custody settlements and vouchers",
+                         "Full login screen stability and layout responsiveness across narrow mobile and tablet screens",
+                         "Certified comprehensive user manuals in Arabic and English with direct high-speed downloads"
                      ],
     "changelog":  [
                       {
-                          "category":  "الأدوار والصلاحيات الميدانية",
-                          "categoryEn":  "Operational Roles \u0026 Permissions",
+                          "category":  "الأمان وإدارة المنشأة",
+                          "categoryEn":  "Enterprise Security \u0026 Management",
                           "items":  [
-                                        "خيار مباشر لإضافة طبيب مشرف مع شرح صلاحياته التنفيذية على مزارع الشركة",
-                                        "إخفاء تلقائي للمزارع المعينة ومفتاح الصلاحيات عند تعيين المشرف لشمولية سلطته",
-                                        "تحديث مصفوفة إنشاء الطواقم الطبية لصاحب المنشأة والمشرفين"
+                                        "رفع شعارات الشركات سحابياً مع عزل وتأمين ملفات كل منشأة على حدة",
+                                        "تحصين قواعد البيانات لمنع أي تداخل في الأدوار أو الصلاحيات الإشرافية والمالية",
+                                        "سجل تدقيق داخلي لحماية وتتبع الحركات الحساسة في التقارير والعهد"
                                     ],
                           "itemsEn":  [
-                                          "Direct selection to add a Supervising Vet with clear operational authority",
-                                          "Automated isolation hiding specific farm selectors for company-wide supervisors",
-                                          "Updated medical team management matrix for owners and supervisors"
+                                          "Direct cloud logo storage with strict multi-tenant isolation per company",
+                                          "Fortified database guards preventing privilege escalation in supervisory and financial roles",
+                                          "Internal audit logging for sensitive operational and financial record tracking"
                                       ]
                       },
                       {
