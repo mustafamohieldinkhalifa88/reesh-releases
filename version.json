@@ -1,13 +1,13 @@
 {
-    "version":  "2.17.0",
-    "build":  39,
+    "version":  "2.18.0",
+    "build":  40,
     "releaseDate":  "2026-11-01",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "منظومة ريش v2.17.0 — تعزيز أدوار الإدارة الطبية والإشرافية الميدانية",
-    "titleEn":  "Reesh ERP v2.17.0 — Enhanced Medical Supervision \u0026 Operational Roles",
+    "title":  "منظومة ريش v2.18.0 — تعزيز أدوار الإدارة الطبية والإشرافية الميدانية",
+    "titleEn":  "Reesh ERP v2.18.0 — Enhanced Medical Supervision \u0026 Operational Roles",
     "summary":  "تحديث تشغيلي يمنح إدارة المزرعة مرونة إضافة وتعيين الطبيب المشرف مع الضبط التلقائي للصلاحيات والمزارع، وتحديث أدلة التشغيل الشاملة.",
     "summaryEn":  "An operational release providing farm management with flexible supervising vet onboarding, automated farm isolation, and certified user manuals.",
     "highlights":  [
