@@ -1,54 +1,58 @@
 {
-    "version":  "2.19.0",
-    "build":  41,
-    "releaseDate":  "2026-11-01",
+    "version":  "2.20.0",
+    "build":  42,
+    "releaseDate":  "2026-11-04",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "منظومة ريش v2.19.0 — تحصين أمان المنشأة، رفع الشعار السحابي، واستقرار العمليات الميدانية",
-    "titleEn":  "Reesh ERP v2.19.0 — Enterprise Security Hardening, Cloud Logo Storage \u0026 Field Stability",
-    "summary":  "تحديث أمني وتشغيلي شامل يوفر رفع شعارات المنشآت سحابياً فورياً، وتحصين إدارة الطواقم الطبية والمالية، وتعزيز استقرار المزامنة وسرعة الاستجابة.",
-    "summaryEn":  "A comprehensive security and operational release delivering direct cloud logo storage, fortified medical and financial staff controls, and maximized sync stability.",
+    "title":  "منظومة ريش v2.20.0 — الفرزة لكل عنبر، تنبيه عجز العلف، وتسوية الجرد",
+    "titleEn":  "Reesh ERP v2.20.0 — Per-House Culls, Feed Deficit Alerts \u0026 Stock Count Adjustments",
+    "summary":  "تحديث تشغيلي يطابق طريقة العمل في المزارع: الفرزة تبقى في عنبرها حتى تخرج، والعلف يُسجَّل لكل عنبر، وتنبيه فوري عند عجز العلف مع تسوية جرد معتمدة.",
+    "summaryEn":  "An operational release that matches how farms work: culls stay in their house until they leave, feed is recorded per house, and feed deficits raise an instant alert with approved stock count adjustments.",
     "highlights":  [
-                       "تفعيل الرفع والتخزين السحابي المباشر لشعارات الشركات مع تحسين ضغط الصور وسرعة العرض",
-                       "تحصين سيادي لأدوار المنشأة وضبط صلاحيات الاعتماد المالي لكشوف العهد وسندات القبض والصرف",
-                       "استقرار فني تام لواجهة تسجيل الدخول والتوافق مع شاشات الهواتف والأجهزة اللوحية الضيقة",
-                       "إدراج دليلي المستخدم والتشغيل الشاملين (عربي وإنجليزي) وروابط التحميل المباشرة الفورية"
+                       "الفرزة تُسجَّل يوم فرزها للمتابعة وتُخصم من رصيد العنبر يوم خروجها بالبيع أو الإعدام",
+                       "تحديد نوع العنبر في الأمهات (إناث / ذكور / مختلط) وحساب علف الأنثى والذكر من العنابر",
+                       "تنبيه عجز العلف لصاحب الشركة والمحاسب والطبيب المشرف، وتسوية جرد يعتمدها الطبيب المشرف أو صاحب الشركة",
+                       "قبول الأرقام العربية والفاصلة العشرية في كل الحقول، ودقة أعلى في معامل التحويل"
                    ],
     "highlightsEn":  [
-                         "Direct cloud logo upload and storage with automatic compression and instant display",
-                         "Fortified enterprise roles and strict financial authorization for custody settlements and vouchers",
-                         "Full login screen stability and layout responsiveness across narrow mobile and tablet screens",
-                         "Certified comprehensive user manuals in Arabic and English with direct high-speed downloads"
+                         "Culls are recorded on the day they are culled for tracking, and deducted from the house on the day they leave (sale or destruction)",
+                         "House type for breeders (females / males / mixed) with female and male feed per bird calculated from the houses",
+                         "Feed deficit alerts to the company owner, accountant and supervising vet, plus stock count adjustments approved by the supervising vet or owner",
+                         "Arabic digits and decimal commas accepted in every field, and more accurate FCR"
                      ],
     "changelog":  [
                       {
-                          "category":  "الأمان وإدارة المنشأة",
-                          "categoryEn":  "Enterprise Security \u0026 Management",
+                          "category":  "التقرير اليومي والقطيع",
+                          "categoryEn":  "Daily Report \u0026 Flock",
                           "items":  [
-                                        "رفع شعارات الشركات سحابياً مع عزل وتأمين ملفات كل منشأة على حدة",
-                                        "تحصين قواعد البيانات لمنع أي تداخل في الأدوار أو الصلاحيات الإشرافية والمالية",
-                                        "سجل تدقيق داخلي لحماية وتتبع الحركات الحساسة في التقارير والعهد"
+                                        "حقول جديدة لكل عنبر: فرزة اليوم، الفرزة الخارجة، الفرزة الموجودة، الذكور الواردة، وعلف الطائر بالجرام",
+                                        "نسبة إنتاج البيض وعلف الطائر تُحسب على الطيور الحية شاملة الفرزة الموجودة",
+                                        "الفرزة الخارجة من العنبر المختلط تُخصم من الذكور والإناث حسب العدد المسجَّل",
+                                        "منع حفظ وزن مكتوب بالكيلو بدل الجرام، وحماية التقرير من تغيّر التاريخ بعد منتصف الليل"
                                     ],
                           "itemsEn":  [
-                                          "Direct cloud logo storage with strict multi-tenant isolation per company",
-                                          "Fortified database guards preventing privilege escalation in supervisory and financial roles",
-                                          "Internal audit logging for sensitive operational and financial record tracking"
+                                          "New per-house fields: culled today, culls leaving, culls in house, males added, and feed per bird in grams",
+                                          "Hen-day production and feed per bird are calculated on live birds including culls still in the house",
+                                          "Culls leaving a mixed house are deducted from males and females by the recorded count",
+                                          "Weights typed in kilograms instead of grams are caught, and reports are protected from a date change after midnight"
                                       ]
                       },
                       {
-                          "category":  "أدلة التشغيل وتجربة المستخدم",
-                          "categoryEn":  "User Guides \u0026 Experience",
+                          "category":  "المخزن والتنبيهات",
+                          "categoryEn":  "Store \u0026 Alerts",
                           "items":  [
-                                        "تحديث دليلي المستخدم (24 صفحة) بكافة خطوات العمل اليومية وسيناريو أول 15 دقيقة",
-                                        "روابط تنزيل مباشرة وسريعة للمثبت وتطبيق الأندرويد",
-                                        "تحسين التوافق البصري والطباعي على أجهزة الكمبيوتر والهواتف الذكية"
+                                        "يُحفظ التقرير عند عجز العلف ويصل تنبيه فوري للإدارة",
+                                        "طلب تسوية جرد من المهندس مع السبب، ولا يتغير الرصيد إلا بعد الاعتماد",
+                                        "عودة تنبيهات إرسال التقارير اليومية للوحة التحكم",
+                                        "تحسينات في الأمان والصلاحيات واستقرار المزامنة"
                                     ],
                           "itemsEn":  [
-                                          "Updated 24-page comprehensive manuals covering daily barn operations and quick-start",
-                                          "Direct verified download links for Windows installer and Android APK",
-                                          "Enhanced layout and print fidelity across desktop and mobile devices"
+                                          "Reports are saved during a feed deficit and management is alerted at once",
+                                          "Engineers request stock count adjustments with a reason; the balance changes only after approval",
+                                          "Daily report submission alerts are back on the dashboard",
+                                          "Security, permissions and sync stability improvements"
                                       ]
                       }
                   ],
