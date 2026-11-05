@@ -1,60 +1,56 @@
 {
-    "version":  "2.21.0",
-    "build":  43,
-    "releaseDate":  "2026-11-05",
+    "version":  "2.22.0",
+    "build":  44,
+    "releaseDate":  "2026-11-06",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "منظومة ريش v2.21.0 — دليل المستخدم داخل التطبيق، الفرزة لكل عنبر، وتنبيه عجز العلف",
-    "titleEn":  "Reesh ERP v2.21.0 — In-App User Guide, Per-House Culls \u0026 Feed Deficit Alerts",
-    "summary":  "تحديث تشغيلي يطابق طريقة العمل في المزارع: الفرزة تبقى في عنبرها حتى تخرج، والعلف يُسجَّل لكل عنبر، وتنبيه فوري عند عجز العلف مع تسوية جرد معتمدة.",
-    "summaryEn":  "An operational release that matches how farms work: culls stay in their house until they leave, feed is recorded per house, and feed deficits raise an instant alert with approved stock count adjustments.",
+    "title":  "منظومة ريش v2.22.0 — صلاحيات أدق للحسابات، واعتماد استعادة النسخ، وإصلاحات التقرير اليومي",
+    "titleEn":  "Reesh ERP v2.22.0 — Precise Account Permissions, Restore Approval \u0026 Daily Report Fixes",
+    "summary":  "تحديث يضبط من يرى من ومن يدير من بين حسابات الشركة، ويجعل استعادة النسخة الاحتياطية باعتماد صاحب الشركة، ويحفظ بيانات التقرير اليومي عند أي خطأ في الإدخال.",
+    "summaryEn":  "A release that sets exactly who sees and manages which company accounts, requires owner approval to restore a backup, and keeps daily report data when an entry needs fixing.",
     "highlights":  [
-                       "زر «دليل المستخدم» في الإعدادات والقائمة الجانبية يفتح الدليل الشامل المصوَّر (36 صفحة)",
-                       "الفرزة تُسجَّل يوم فرزها للمتابعة وتُخصم من رصيد العنبر يوم خروجها بالبيع أو الإعدام",
-                       "تحديد نوع العنبر في الأمهات (إناث / ذكور / مختلط) وحساب علف الأنثى والذكر من العنابر",
-                       "تنبيه عجز العلف لصاحب الشركة والمحاسب والطبيب المشرف، وتسوية جرد يعتمدها الطبيب المشرف أو صاحب الشركة",
-                       "قبول الأرقام العربية والفاصلة العشرية في كل الحقول، ودقة أعلى في معامل التحويل"
+                       "كل حساب يرى نفسه والحسابات التي يديرها فقط، ومدير الحسابات يديره صاحب الشركة وحده",
+                       "استعادة النسخة الاحتياطية من الطبيب المشرف تحتاج اعتماد صاحب الشركة، والنسخ التلقائي يعمل لصاحب الشركة أيضاً",
+                       "عند نسيان حقل في التقرير اليومي تظهر رسالة وتبقى كل البيانات المكتوبة",
+                       "زر الإضافة أسفل قوائم الأطباء والمهندسين ومديري الحسابات لا يغطي البطاقات"
                    ],
     "highlightsEn":  [
-                         "A «User Guide» button in Settings and the side menu opens the full illustrated guide (36 pages)",
-                         "Culls are recorded on the day they are culled for tracking, and deducted from the house on the day they leave (sale or destruction)",
-                         "House type for breeders (females / males / mixed) with female and male feed per bird calculated from the houses",
-                         "Feed deficit alerts to the company owner, accountant and supervising vet, plus stock count adjustments approved by the supervising vet or owner",
-                         "Arabic digits and decimal commas accepted in every field, and more accurate FCR"
+                         "Every account sees itself and the accounts it manages only; account managers are managed by the company owner alone",
+                         "Restoring a backup by a supervising vet needs the owner\u0027s approval, and automatic backups now run for the owner too",
+                         "A missing field in the daily report shows a message and keeps everything already typed",
+                         "The add button under the vets, engineers and account managers lists no longer covers the cards"
                      ],
     "changelog":  [
                       {
-                          "category":  "التقرير اليومي والقطيع",
-                          "categoryEn":  "Daily Report \u0026 Flock",
+                          "category":  "الحسابات والصلاحيات",
+                          "categoryEn":  "Accounts \u0026 Permissions",
                           "items":  [
-                                        "حقول جديدة لكل عنبر: فرزة اليوم، الفرزة الخارجة، الفرزة الموجودة، الذكور الواردة، وعلف الطائر بالجرام",
-                                        "نسبة إنتاج البيض وعلف الطائر تُحسب على الطيور الحية شاملة الفرزة الموجودة",
-                                        "الفرزة الخارجة من العنبر المختلط تُخصم من الذكور والإناث حسب العدد المسجَّل",
-                                        "منع حفظ وزن مكتوب بالكيلو بدل الجرام، وحماية التقرير من تغيّر التاريخ بعد منتصف الليل"
+                                        "حسابك يظهر في القائمة بشارة «أنت» دون أزرار حذف أو تعديل صلاحيات",
+                                        "منح صلاحية إدارة الأطباء لصاحب الشركة والطبيب المشرف فقط",
+                                        "إصلاح حفظ المهندس عند استبدال مهندس آخر على المزرعة",
+                                        "تحسينات أمان على إنشاء الحسابات وتعديلها وحذفها"
                                     ],
                           "itemsEn":  [
-                                          "New per-house fields: culled today, culls leaving, culls in house, males added, and feed per bird in grams",
-                                          "Hen-day production and feed per bird are calculated on live birds including culls still in the house",
-                                          "Culls leaving a mixed house are deducted from males and females by the recorded count",
-                                          "Weights typed in kilograms instead of grams are caught, and reports are protected from a date change after midnight"
+                                          "Your own account shows a «You» badge with no delete or permission buttons",
+                                          "Only the company owner and supervising vets grant the vet management permission",
+                                          "Fixed saving an engineer when replacing another engineer on the farm",
+                                          "Security improvements for creating, editing and deleting accounts"
                                       ]
                       },
                       {
-                          "category":  "المخزن والتنبيهات",
-                          "categoryEn":  "Store \u0026 Alerts",
+                          "category":  "النسخ الاحتياطي والتقارير",
+                          "categoryEn":  "Backup \u0026 Reports",
                           "items":  [
-                                        "يُحفظ التقرير عند عجز العلف ويصل تنبيه فوري للإدارة",
-                                        "طلب تسوية جرد من المهندس مع السبب، ولا يتغير الرصيد إلا بعد الاعتماد",
-                                        "عودة تنبيهات إرسال التقارير اليومية للوحة التحكم",
-                                        "تحسينات في الأمان والصلاحيات واستقرار المزامنة"
+                                        "طلب استعادة بسبب واضح، يعتمده صاحب الشركة من لوحة التحكم لمدة 24 ساعة",
+                                        "التحقق من كلمة مرور النسخة قبل بدء الاستعادة",
+                                        "إعادة المحاولة عند تعذّر تحميل شاشة التقرير اليومي"
                                     ],
                           "itemsEn":  [
-                                          "Reports are saved during a feed deficit and management is alerted at once",
-                                          "Engineers request stock count adjustments with a reason; the balance changes only after approval",
-                                          "Daily report submission alerts are back on the dashboard",
-                                          "Security, permissions and sync stability improvements"
+                                          "Restore requests with a reason, approved by the company owner from the dashboard for 24 hours",
+                                          "The backup password is checked before the restore starts",
+                                          "Try again when the daily report screen cannot load"
                                       ]
                       }
                   ],
