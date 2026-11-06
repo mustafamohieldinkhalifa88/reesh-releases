@@ -1,56 +1,54 @@
 {
-    "version":  "2.22.0",
-    "build":  44,
+    "version":  "2.23.0",
+    "build":  45,
     "releaseDate":  "2026-11-06",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "منظومة ريش v2.22.0 — صلاحيات أدق للحسابات، واعتماد استعادة النسخ، وإصلاحات التقرير اليومي",
-    "titleEn":  "Reesh ERP v2.22.0 — Precise Account Permissions, Restore Approval \u0026 Daily Report Fixes",
-    "summary":  "تحديث يضبط من يرى من ومن يدير من بين حسابات الشركة، ويجعل استعادة النسخة الاحتياطية باعتماد صاحب الشركة، ويحفظ بيانات التقرير اليومي عند أي خطأ في الإدخال.",
-    "summaryEn":  "A release that sets exactly who sees and manages which company accounts, requires owner approval to restore a backup, and keeps daily report data when an entry needs fixing.",
+    "title":  "منظومة ريش v2.23.0 — ترقية الباقة وتجديدها من داخل التطبيق",
+    "titleEn":  "Reesh ERP v2.23.0 — Upgrade and Renew Your Plan In-App",
+    "summary":  "تحديث يتيح لصاحب الشركة ترقية باقته أو تجديدها بكود من الإعدادات مع الاحتفاظ بكل البيانات، ويعرض حدود الباقة واستخدامها، ويؤرشف بدل أن يحذف عند الانتقال لباقة أصغر.",
+    "summaryEn":  "Company owners can now upgrade or renew their plan with a code from Settings while keeping all data, see plan limits and usage, and archive instead of deleting when moving to a smaller plan.",
     "highlights":  [
-                       "كل حساب يرى نفسه والحسابات التي يديرها فقط، ومدير الحسابات يديره صاحب الشركة وحده",
-                       "استعادة النسخة الاحتياطية من الطبيب المشرف تحتاج اعتماد صاحب الشركة، والنسخ التلقائي يعمل لصاحب الشركة أيضاً",
-                       "عند نسيان حقل في التقرير اليومي تظهر رسالة وتبقى كل البيانات المكتوبة",
-                       "زر الإضافة أسفل قوائم الأطباء والمهندسين ومديري الحسابات لا يغطي البطاقات"
+                       "ترقية أو تجديد الباقة بكود من الإعدادات لصاحب الشركة، مع عرض ما سيتغير قبل التأكيد",
+                       "كل أجهزة الشركة تنتقل للباقة الجديدة تلقائياً دون إعادة تفعيل",
+                       "لوحة الباقة: المزارع والعمال والأجهزة المستخدمة من الحد، وتاريخ الانتهاء",
+                       "عند التجديد بباقة أصغر يختار صاحب الشركة ما يبقى نشطاً، والباقي يُؤرشف للاطلاع ويمكن إعادة تنشيطه"
                    ],
     "highlightsEn":  [
-                         "Every account sees itself and the accounts it manages only; account managers are managed by the company owner alone",
-                         "Restoring a backup by a supervising vet needs the owner\u0027s approval, and automatic backups now run for the owner too",
-                         "A missing field in the daily report shows a message and keeps everything already typed",
-                         "The add button under the vets, engineers and account managers lists no longer covers the cards"
+                         "Upgrade or renew the plan with a code from Settings (company owner), with a preview before confirming",
+                         "All company devices move to the new plan automatically, no re-activation needed",
+                         "Plan panel: farms, workers and devices used out of the limit, and the end date",
+                         "When renewing to a smaller plan the owner chooses what stays active; the rest is archived for viewing and can be reactivated"
                      ],
     "changelog":  [
                       {
-                          "category":  "الحسابات والصلاحيات",
-                          "categoryEn":  "Accounts \u0026 Permissions",
+                          "category":  "الباقة والترخيص",
+                          "categoryEn":  "Plan \u0026 License",
                           "items":  [
-                                        "حسابك يظهر في القائمة بشارة «أنت» دون أزرار حذف أو تعديل صلاحيات",
-                                        "منح صلاحية إدارة الأطباء لصاحب الشركة والطبيب المشرف فقط",
-                                        "إصلاح حفظ المهندس عند استبدال مهندس آخر على المزرعة",
-                                        "تحسينات أمان على إنشاء الحسابات وتعديلها وحذفها"
+                                        "ترقية فورية بنفس تاريخ الانتهاء، أو تجديد يبدأ بعد انتهاء الاشتراك الحالي، أو تحويل إلى ترخيص دائم",
+                                        "الباقة الأعلى تبقى سارية حتى نهاية مدتها عند التجديد بباقة أصغر",
+                                        "أرشفة المزارع والعمال وإعادة تنشيطهم من قوائمهم لصاحب الشركة"
                                     ],
                           "itemsEn":  [
-                                          "Your own account shows a «You» badge with no delete or permission buttons",
-                                          "Only the company owner and supervising vets grant the vet management permission",
-                                          "Fixed saving an engineer when replacing another engineer on the farm",
-                                          "Security improvements for creating, editing and deleting accounts"
+                                          "Immediate upgrade with the same end date, renewal starting after the current period, or conversion to a permanent license",
+                                          "The higher plan stays active until its end when renewing to a smaller plan",
+                                          "Archive and reactivate farms and workers from their lists (company owner)"
                                       ]
                       },
                       {
-                          "category":  "النسخ الاحتياطي والتقارير",
-                          "categoryEn":  "Backup \u0026 Reports",
+                          "category":  "حماية البيانات",
+                          "categoryEn":  "Data Safety",
                           "items":  [
-                                        "طلب استعادة بسبب واضح، يعتمده صاحب الشركة من لوحة التحكم لمدة 24 ساعة",
-                                        "التحقق من كلمة مرور النسخة قبل بدء الاستعادة",
-                                        "إعادة المحاولة عند تعذّر تحميل شاشة التقرير اليومي"
+                                        "المزرعة المؤرشفة تبقى بكل دوراتها وتقاريرها للاطلاع والطباعة",
+                                        "العامل المؤرشف يبقى سجله ولا يظهر في كشف الحضور اليومي",
+                                        "كود التفعيل العادي لا يكتب فوق باقة شركة مفعّلة"
                                     ],
                           "itemsEn":  [
-                                          "Restore requests with a reason, approved by the company owner from the dashboard for 24 hours",
-                                          "The backup password is checked before the restore starts",
-                                          "Try again when the daily report screen cannot load"
+                                          "Archived farms keep all their cycles and reports for viewing and printing",
+                                          "Archived workers keep their records and leave the daily attendance sheet",
+                                          "A regular activation code no longer overwrites an active company plan"
                                       ]
                       }
                   ],
