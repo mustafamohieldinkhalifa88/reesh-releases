@@ -1,57 +1,40 @@
 {
-    "version":  "2.27.0",
-    "build":  49,
+    "version":  "2.28.0",
+    "build":  50,
     "releaseDate":  "2026-11-08",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "منظومة ريش v2.27.0 — التنبيهات التلقائية، وريش بجانب الساعة على ويندوز",
-    "titleEn":  "Reesh ERP v2.27.0 — Automatic Alerts, and Reesh in the Windows Tray",
-    "summary":  "تحديث يضيف تنبيهات تلقائية للنافق العالي والوزن المنخفض والتقرير الذي لم يُسجَّل والتحصين المتأخر، ويجعل نسخة ويندوز تعمل بجانب الساعة وتشتغل مع تشغيل الجهاز حتى تصل الإشعارات دائماً.",
-    "summaryEn":  "Adds automatic alerts for high mortality, low weight, missing daily reports and overdue vaccinations, and keeps the Windows app running in the tray and starting with Windows so notifications always arrive.",
+    "windowsSha256":  "a324214ade18684cf96de475d4410b65fe45e5301f57ed29f162047932d99fb4",
+    "title":  "منظومة ريش v2.28.0 — تحديث ويندوز من داخل البرنامج",
+    "titleEn":  "Reesh ERP v2.28.0 — In-App Windows Updates",
+    "summary":  "تحديث يجعل نسخة ويندوز تنزّل التحديثات القادمة بنفسها وتتحقق من سلامة الملف قبل تثبيته، بدل فتح المتصفح.",
+    "summaryEn":  "The Windows app now downloads future updates by itself and verifies the file before installing it, instead of opening the browser.",
     "highlights":  [
-                       "تنبيه نافق عالٍ ووزن أقل من جدول السلالة عند حفظ التقرير اليومي",
-                       "تنبيه تقرير لم يُسجَّل حتى الساعة المحددة، وتحصين فات موعده ولم يُؤكَّد",
-                       "حدود التنبيهات التلقائية يحددها صاحب الشركة أو الطبيب المشرف من شاشة توجيه التنبيهات",
-                       "ويندوز: زر الإغلاق يُبقي ريش بجانب الساعة، والإشعارات تصل والنافذة مقفولة",
-                       "ويندوز: يشتغل مع تشغيل الجهاز، ويمكن إيقاف ذلك من الإعدادات"
+                       "تنزيل التحديث داخل البرنامج مع شريط تقدّم",
+                       "التحقق من بصمة ملف التحديث قبل تشغيله، ورفض أي ملف غير مطابق",
+                       "لا تظهر رسالة حماية ويندوز مع التحديثات القادمة"
                    ],
     "highlightsEn":  [
-                         "High mortality and below-standard weight alerts when the daily report is saved",
-                         "Alerts for a report not recorded by the set hour, and for an overdue unconfirmed vaccination",
-                         "The company owner or the supervising vet sets the automatic alert limits from the Alert Routing screen",
-                         "Windows: the close button keeps Reesh in the tray, and notifications arrive with the window closed",
-                         "Windows: starts with the computer, and this can be turned off in Settings"
+                         "Updates download inside the app with a progress bar",
+                         "The update file\u0027s fingerprint is verified before it runs, and any mismatch is rejected",
+                         "No Windows protection prompt with future updates"
                      ],
     "changelog":  [
-                      {
-                          "category":  "التنبيهات التلقائية",
-                          "categoryEn":  "Automatic Alerts",
-                          "items":  [
-                                        "الحدود المبدئية: نافق أكثر من 0.5%، تقرير حتى الساعة 2 ظهراً، تحصين بعد يوم من موعده، وزن أقل بـ 10%",
-                                        "التحصين المتأخر يحترم تعديلات الطبيب على مواعيد البرنامج الصحي والبنود المخصصة",
-                                        "كل تنبيه يخرج مرة واحدة ولا يتكرر"
-                                    ],
-                          "itemsEn":  [
-                                          "Default limits: mortality above 0.5%, report by 2 PM, vaccination one day after its date, weight 10% below",
-                                          "Overdue vaccinations follow the vet\u0027s changes to the health protocol dates and custom items",
-                                          "Each alert is sent once and never repeated"
-                                      ]
-                      },
                       {
                           "category":  "نسخة ويندوز",
                           "categoryEn":  "Windows",
                           "items":  [
-                                        "أيقونة ريش بجانب الساعة: ضغطة تفتح النافذة، والزر الأيمن لفتح ريش أو الخروج",
-                                        "الضغط على الإشعار يفتح النافذة"
+                                        "عند فشل التنزيل: إعادة المحاولة، أو التنزيل من المتصفح",
+                                        "يُغلق البرنامج تلقائياً بعد فتح المثبّت حتى يكتمل التحديث"
                                     ],
                           "itemsEn":  [
-                                          "Reesh icon in the tray: click to open the window, right-click to open Reesh or exit",
-                                          "Clicking a notification opens the window"
+                                          "If the download fails: try again, or download from the browser",
+                                          "The app closes automatically after the installer opens so the update can complete"
                                       ]
                       }
                   ],
-    "notes":  "يتم تثبيت التحديث بأمان تام فوق نسختك الحالية دون أي مساس ببياناتك المحفوظة.",
-    "notesEn":  "The update installs safely over your current installation without affecting any of your saved data."
+    "notes":  "هذا التحديث وحده قد تظهر معه رسالة حماية ويندوز مرة أخيرة: اضغط (More info) ثم (Run anyway). التحديثات التالية تتم من داخل البرنامج.",
+    "notesEn":  "This update alone may show the Windows protection prompt one last time: click (More info) then (Run anyway). Later updates install from inside the app."
 }
