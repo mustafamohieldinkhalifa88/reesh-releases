@@ -1,56 +1,56 @@
 {
-    "version":  "2.24.0",
-    "build":  46,
+    "version":  "2.25.0",
+    "build":  47,
     "releaseDate":  "2026-11-07",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "منظومة ريش v2.24.0 — إصلاح جدول العنابر في تقرير PDF، وترقية الباقة من داخل التطبيق",
-    "titleEn":  "Reesh ERP v2.24.0 — Barn Table Fix in PDF Reports, In-App Plan Upgrades",
-    "summary":  "تحديث يتيح لصاحب الشركة ترقية باقته أو تجديدها بكود من الإعدادات مع الاحتفاظ بكل البيانات، ويعرض حدود الباقة واستخدامها، ويؤرشف بدل أن يحذف عند الانتقال لباقة أصغر.",
-    "summaryEn":  "Company owners can now upgrade or renew their plan with a code from Settings while keeping all data, see plan limits and usage, and archive instead of deleting when moving to a smaller plan.",
+    "title":  "منظومة ريش v2.25.0 — جرس الإشعارات وتوجيه التنبيهات",
+    "titleEn":  "Reesh ERP v2.25.0 — Notifications Bell and Alert Routing",
+    "summary":  "تحديث يضيف صندوق إشعارات لكل مستخدم: الطبيب المشرف وطبيب المزرعة ومدير الحسابات وصاحب الشركة يصلهم ما يخصهم من عمل المهندس الزراعي لحظة حدوثه، على الويب والويندوز والأندرويد.",
+    "summaryEn":  "Adds a notifications inbox for every user: the supervising vet, the farm vet, the accounts manager and the company owner receive what concerns them from the agricultural engineer\u0027s work as it happens, on web, Windows and Android.",
     "highlights":  [
-                       "إصلاح انزياح عناوين جدول تفاصيل العنابر في تقرير PDF اليومي وإضافة عمودي الفرزة",
-                       "ترقية أو تجديد الباقة بكود من الإعدادات لصاحب الشركة، مع عرض ما سيتغير قبل التأكيد",
-                       "كل أجهزة الشركة تنتقل للباقة الجديدة تلقائياً دون إعادة تفعيل",
-                       "لوحة الباقة: المزارع والعمال والأجهزة المستخدمة من الحد، وتاريخ الانتهاء",
-                       "عند التجديد بباقة أصغر يختار صاحب الشركة ما يبقى نشطاً، والباقي يُؤرشف للاطلاع ويمكن إعادة تنشيطه"
+                       "جرس إشعارات في رأس الشاشة بعدد غير المقروء، والضغط على الإشعار يفتح التقرير أو الكشف نفسه",
+                       "التقرير اليومي وتعديله يصلان للطبيب المشرف وطبيب المزرعة بالنافق والعلف والوزن",
+                       "العهدة وبنودها والسندات تصل للطبيب المشرف ومدير الحسابات",
+                       "العمال والحضور تصل للطبيب المشرف وصاحب الشركة ومدير الحسابات",
+                       "إشعار منبثق والتطبيق مفتوح على الويب والويندوز والأندرويد"
                    ],
     "highlightsEn":  [
-                         "Fixed shifted headers in the barn details table of the daily PDF report, with the culls columns",
-                         "Upgrade or renew the plan with a code from Settings (company owner), with a preview before confirming",
-                         "All company devices move to the new plan automatically, no re-activation needed",
-                         "Plan panel: farms, workers and devices used out of the limit, and the end date",
-                         "When renewing to a smaller plan the owner chooses what stays active; the rest is archived for viewing and can be reactivated"
+                         "A notifications bell in the header with the unread count; tapping a notification opens the report or settlement itself",
+                         "New and edited daily reports reach the supervising vet and the farm vet with mortality, feed and weight",
+                         "Custody settlements, their items and vouchers reach the supervising vet and the accounts manager",
+                         "Workers and attendance reach the supervising vet, the company owner and the accounts manager",
+                         "Pop-up notifications while the app is open on web, Windows and Android"
                      ],
     "changelog":  [
                       {
-                          "category":  "الباقة والترخيص",
-                          "categoryEn":  "Plan \u0026 License",
+                          "category":  "الإشعارات",
+                          "categoryEn":  "Notifications",
                           "items":  [
-                                        "ترقية فورية بنفس تاريخ الانتهاء، أو تجديد يبدأ بعد انتهاء الاشتراك الحالي، أو تحويل إلى ترخيص دائم",
-                                        "الباقة الأعلى تبقى سارية حتى نهاية مدتها عند التجديد بباقة أصغر",
-                                        "أرشفة المزارع والعمال وإعادة تنشيطهم من قوائمهم لصاحب الشركة"
+                                        "إشعارات الدورة: فتح دورة، وتعديل بياناتها، وتغيير المرحلة، وإنهاؤها",
+                                        "إشعارات البرنامج الصحي ومخزن البيض ومعمل التفريخ وطلب تسوية جرد العلف",
+                                        "عجز العلف يصل لصاحب الشركة والمحاسب والطبيب المشرف",
+                                        "بنود العهدة والحضور تُجمع في إشعار واحد يتحدّث بدل إشعار لكل سطر"
                                     ],
                           "itemsEn":  [
-                                          "Immediate upgrade with the same end date, renewal starting after the current period, or conversion to a permanent license",
-                                          "The higher plan stays active until its end when renewing to a smaller plan",
-                                          "Archive and reactivate farms and workers from their lists (company owner)"
+                                          "Cycle notifications: opened, edited, stage changed and ended",
+                                          "Health protocol, egg inventory, hatchery and feed stock adjustment notifications",
+                                          "Feed deficit reaches the company owner, the accountant and the supervising vet",
+                                          "Custody items and attendance are grouped into one updating notification instead of one per line"
                                       ]
                       },
                       {
-                          "category":  "حماية البيانات",
-                          "categoryEn":  "Data Safety",
+                          "category":  "الخصوصية",
+                          "categoryEn":  "Privacy",
                           "items":  [
-                                        "المزرعة المؤرشفة تبقى بكل دوراتها وتقاريرها للاطلاع والطباعة",
-                                        "العامل المؤرشف يبقى سجله ولا يظهر في كشف الحضور اليومي",
-                                        "كود التفعيل العادي لا يكتب فوق باقة شركة مفعّلة"
+                                        "السيرفر يحدد من يستلم كل إشعار، وكل مستخدم يرى إشعاراته فقط",
+                                        "لا يصل للشخص إشعار عن عمله هو"
                                     ],
                           "itemsEn":  [
-                                          "Archived farms keep all their cycles and reports for viewing and printing",
-                                          "Archived workers keep their records and leave the daily attendance sheet",
-                                          "A regular activation code no longer overwrites an active company plan"
+                                          "The server decides who receives each notification, and every user sees only their own",
+                                          "Nobody is notified about their own actions"
                                       ]
                       }
                   ],
