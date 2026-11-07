@@ -1,56 +1,54 @@
 {
-    "version":  "2.25.0",
-    "build":  47,
-    "releaseDate":  "2026-11-07",
+    "version":  "2.26.0",
+    "build":  48,
+    "releaseDate":  "2026-11-08",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "منظومة ريش v2.25.0 — جرس الإشعارات وتوجيه التنبيهات",
-    "titleEn":  "Reesh ERP v2.25.0 — Notifications Bell and Alert Routing",
-    "summary":  "تحديث يضيف صندوق إشعارات لكل مستخدم: الطبيب المشرف وطبيب المزرعة ومدير الحسابات وصاحب الشركة يصلهم ما يخصهم من عمل المهندس الزراعي لحظة حدوثه، على الويب والويندوز والأندرويد.",
-    "summaryEn":  "Adds a notifications inbox for every user: the supervising vet, the farm vet, the accounts manager and the company owner receive what concerns them from the agricultural engineer\u0027s work as it happens, on web, Windows and Android.",
+    "title":  "منظومة ريش v2.26.0 — إشعارات والتطبيق مقفول، وتوجيه التنبيهات",
+    "titleEn":  "Reesh ERP v2.26.0 — Notifications While the App Is Closed, and Alert Routing",
+    "summary":  "تحديث يوصل الإشعارات على الأندرويد والويب حتى والتطبيق مقفول، ويضيف شاشة يحدد فيها صاحب الشركة والطبيب المشرف من يستلم كل تنبيه، للشركة كلها أو لكل مزرعة.",
+    "summaryEn":  "Notifications now reach Android and web even when the app is closed, and a new screen lets the company owner and the supervising vet choose who receives each alert, for the whole company or per farm.",
     "highlights":  [
-                       "جرس إشعارات في رأس الشاشة بعدد غير المقروء، والضغط على الإشعار يفتح التقرير أو الكشف نفسه",
-                       "التقرير اليومي وتعديله يصلان للطبيب المشرف وطبيب المزرعة بالنافق والعلف والوزن",
-                       "العهدة وبنودها والسندات تصل للطبيب المشرف ومدير الحسابات",
-                       "العمال والحضور تصل للطبيب المشرف وصاحب الشركة ومدير الحسابات",
-                       "إشعار منبثق والتطبيق مفتوح على الويب والويندوز والأندرويد"
+                       "الإشعار يصل على الأندرويد والموبايل مقفول، وعلى الويب والصفحة مقفولة طالما المتصفح يعمل",
+                       "شاشة توجيه التنبيهات في الإعدادات لصاحب الشركة والطبيب المشرف",
+                       "اختيار المستلمين بالدور أو بالاسم، واستثناء لمزرعة معيّنة بدل الإعداد العام أو بالإضافة إليه",
+                       "إعدادات صاحب الشركة مقفولة على الطبيب المشرف",
+                       "الإشعار يصل بلغة التطبيق على الجهاز، ويتوقف عند تسجيل الخروج"
                    ],
     "highlightsEn":  [
-                         "A notifications bell in the header with the unread count; tapping a notification opens the report or settlement itself",
-                         "New and edited daily reports reach the supervising vet and the farm vet with mortality, feed and weight",
-                         "Custody settlements, their items and vouchers reach the supervising vet and the accounts manager",
-                         "Workers and attendance reach the supervising vet, the company owner and the accounts manager",
-                         "Pop-up notifications while the app is open on web, Windows and Android"
+                         "Notifications arrive on Android with the phone locked, and on the web with the page closed while the browser runs",
+                         "An Alert Routing screen in Settings for the company owner and the supervising vet",
+                         "Choose recipients by role or by name, and set a farm exception instead of or in addition to the company setting",
+                         "The company owner\u0027s settings are locked for the supervising vet",
+                         "Notifications use the device\u0027s app language and stop after logging out"
                      ],
     "changelog":  [
                       {
                           "category":  "الإشعارات",
                           "categoryEn":  "Notifications",
                           "items":  [
-                                        "إشعارات الدورة: فتح دورة، وتعديل بياناتها، وتغيير المرحلة، وإنهاؤها",
-                                        "إشعارات البرنامج الصحي ومخزن البيض ومعمل التفريخ وطلب تسوية جرد العلف",
-                                        "عجز العلف يصل لصاحب الشركة والمحاسب والطبيب المشرف",
-                                        "بنود العهدة والحضور تُجمع في إشعار واحد يتحدّث بدل إشعار لكل سطر"
+                                        "على الويب: اسمح بالإشعارات عند أول ضغطة على الجرس",
+                                        "لا يتكرر الإشعار لو كان التطبيق مفتوحاً في الخلفية",
+                                        "إيقاف الإشعارات من الإعدادات يوقفها على هذا الجهاز"
                                     ],
                           "itemsEn":  [
-                                          "Cycle notifications: opened, edited, stage changed and ended",
-                                          "Health protocol, egg inventory, hatchery and feed stock adjustment notifications",
-                                          "Feed deficit reaches the company owner, the accountant and the supervising vet",
-                                          "Custody items and attendance are grouped into one updating notification instead of one per line"
+                                          "On the web: allow notifications the first time you tap the bell",
+                                          "No duplicate notification when the app is open in the background",
+                                          "Turning notifications off in Settings stops them on this device"
                                       ]
                       },
                       {
-                          "category":  "الخصوصية",
-                          "categoryEn":  "Privacy",
+                          "category":  "توجيه التنبيهات",
+                          "categoryEn":  "Alert Routing",
                           "items":  [
-                                        "السيرفر يحدد من يستلم كل إشعار، وكل مستخدم يرى إشعاراته فقط",
-                                        "لا يصل للشخص إشعار عن عمله هو"
+                                        "الإعداد العام للشركة يطبَّق على كل المزارع",
+                                        "رجوع للإعداد المبدئي أو إلغاء استثناء المزرعة في أي وقت"
                                     ],
                           "itemsEn":  [
-                                          "The server decides who receives each notification, and every user sees only their own",
-                                          "Nobody is notified about their own actions"
+                                          "The company setting applies to all farms",
+                                          "Return to the default or remove a farm exception at any time"
                                       ]
                       }
                   ],
