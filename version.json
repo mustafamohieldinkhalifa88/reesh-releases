@@ -1,54 +1,54 @@
 {
-    "version":  "2.26.0",
-    "build":  48,
+    "version":  "2.27.0",
+    "build":  49,
     "releaseDate":  "2026-11-08",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "title":  "منظومة ريش v2.26.0 — إشعارات والتطبيق مقفول، وتوجيه التنبيهات",
-    "titleEn":  "Reesh ERP v2.26.0 — Notifications While the App Is Closed, and Alert Routing",
-    "summary":  "تحديث يوصل الإشعارات على الأندرويد والويب حتى والتطبيق مقفول، ويضيف شاشة يحدد فيها صاحب الشركة والطبيب المشرف من يستلم كل تنبيه، للشركة كلها أو لكل مزرعة.",
-    "summaryEn":  "Notifications now reach Android and web even when the app is closed, and a new screen lets the company owner and the supervising vet choose who receives each alert, for the whole company or per farm.",
+    "title":  "منظومة ريش v2.27.0 — التنبيهات التلقائية، وريش بجانب الساعة على ويندوز",
+    "titleEn":  "Reesh ERP v2.27.0 — Automatic Alerts, and Reesh in the Windows Tray",
+    "summary":  "تحديث يضيف تنبيهات تلقائية للنافق العالي والوزن المنخفض والتقرير الذي لم يُسجَّل والتحصين المتأخر، ويجعل نسخة ويندوز تعمل بجانب الساعة وتشتغل مع تشغيل الجهاز حتى تصل الإشعارات دائماً.",
+    "summaryEn":  "Adds automatic alerts for high mortality, low weight, missing daily reports and overdue vaccinations, and keeps the Windows app running in the tray and starting with Windows so notifications always arrive.",
     "highlights":  [
-                       "الإشعار يصل على الأندرويد والموبايل مقفول، وعلى الويب والصفحة مقفولة طالما المتصفح يعمل",
-                       "شاشة توجيه التنبيهات في الإعدادات لصاحب الشركة والطبيب المشرف",
-                       "اختيار المستلمين بالدور أو بالاسم، واستثناء لمزرعة معيّنة بدل الإعداد العام أو بالإضافة إليه",
-                       "إعدادات صاحب الشركة مقفولة على الطبيب المشرف",
-                       "الإشعار يصل بلغة التطبيق على الجهاز، ويتوقف عند تسجيل الخروج"
+                       "تنبيه نافق عالٍ ووزن أقل من جدول السلالة عند حفظ التقرير اليومي",
+                       "تنبيه تقرير لم يُسجَّل حتى الساعة المحددة، وتحصين فات موعده ولم يُؤكَّد",
+                       "حدود التنبيهات التلقائية يحددها صاحب الشركة أو الطبيب المشرف من شاشة توجيه التنبيهات",
+                       "ويندوز: زر الإغلاق يُبقي ريش بجانب الساعة، والإشعارات تصل والنافذة مقفولة",
+                       "ويندوز: يشتغل مع تشغيل الجهاز، ويمكن إيقاف ذلك من الإعدادات"
                    ],
     "highlightsEn":  [
-                         "Notifications arrive on Android with the phone locked, and on the web with the page closed while the browser runs",
-                         "An Alert Routing screen in Settings for the company owner and the supervising vet",
-                         "Choose recipients by role or by name, and set a farm exception instead of or in addition to the company setting",
-                         "The company owner\u0027s settings are locked for the supervising vet",
-                         "Notifications use the device\u0027s app language and stop after logging out"
+                         "High mortality and below-standard weight alerts when the daily report is saved",
+                         "Alerts for a report not recorded by the set hour, and for an overdue unconfirmed vaccination",
+                         "The company owner or the supervising vet sets the automatic alert limits from the Alert Routing screen",
+                         "Windows: the close button keeps Reesh in the tray, and notifications arrive with the window closed",
+                         "Windows: starts with the computer, and this can be turned off in Settings"
                      ],
     "changelog":  [
                       {
-                          "category":  "الإشعارات",
-                          "categoryEn":  "Notifications",
+                          "category":  "التنبيهات التلقائية",
+                          "categoryEn":  "Automatic Alerts",
                           "items":  [
-                                        "على الويب: اسمح بالإشعارات عند أول ضغطة على الجرس",
-                                        "لا يتكرر الإشعار لو كان التطبيق مفتوحاً في الخلفية",
-                                        "إيقاف الإشعارات من الإعدادات يوقفها على هذا الجهاز"
+                                        "الحدود المبدئية: نافق أكثر من 0.5%، تقرير حتى الساعة 2 ظهراً، تحصين بعد يوم من موعده، وزن أقل بـ 10%",
+                                        "التحصين المتأخر يحترم تعديلات الطبيب على مواعيد البرنامج الصحي والبنود المخصصة",
+                                        "كل تنبيه يخرج مرة واحدة ولا يتكرر"
                                     ],
                           "itemsEn":  [
-                                          "On the web: allow notifications the first time you tap the bell",
-                                          "No duplicate notification when the app is open in the background",
-                                          "Turning notifications off in Settings stops them on this device"
+                                          "Default limits: mortality above 0.5%, report by 2 PM, vaccination one day after its date, weight 10% below",
+                                          "Overdue vaccinations follow the vet\u0027s changes to the health protocol dates and custom items",
+                                          "Each alert is sent once and never repeated"
                                       ]
                       },
                       {
-                          "category":  "توجيه التنبيهات",
-                          "categoryEn":  "Alert Routing",
+                          "category":  "نسخة ويندوز",
+                          "categoryEn":  "Windows",
                           "items":  [
-                                        "الإعداد العام للشركة يطبَّق على كل المزارع",
-                                        "رجوع للإعداد المبدئي أو إلغاء استثناء المزرعة في أي وقت"
+                                        "أيقونة ريش بجانب الساعة: ضغطة تفتح النافذة، والزر الأيمن لفتح ريش أو الخروج",
+                                        "الضغط على الإشعار يفتح النافذة"
                                     ],
                           "itemsEn":  [
-                                          "The company setting applies to all farms",
-                                          "Return to the default or remove a farm exception at any time"
+                                          "Reesh icon in the tray: click to open the window, right-click to open Reesh or exit",
+                                          "Clicking a notification opens the window"
                                       ]
                       }
                   ],
