@@ -1,40 +1,38 @@
 {
-    "version":  "2.28.0",
-    "build":  50,
+    "version":  "2.29.0",
+    "build":  51,
     "releaseDate":  "2026-11-08",
     "minRequiredVersion":  "2.8.0",
     "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
     "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
     "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "windowsSha256":  "a324214ade18684cf96de475d4410b65fe45e5301f57ed29f162047932d99fb4",
-    "title":  "منظومة ريش v2.28.0 — تحديث ويندوز من داخل البرنامج",
-    "titleEn":  "Reesh ERP v2.28.0 — In-App Windows Updates",
-    "summary":  "تحديث يجعل نسخة ويندوز تنزّل التحديثات القادمة بنفسها وتتحقق من سلامة الملف قبل تثبيته، بدل فتح المتصفح.",
-    "summaryEn":  "The Windows app now downloads future updates by itself and verifies the file before installing it, instead of opening the browser.",
+    "windowsSha256":  "11d617db9c2f80f27330cea42afc65754e9bfba7a7536aef4d58dcfdf96d7fb8",
+    "title":  "منظومة ريش v2.29.0 — إصلاح شاشة توجيه التنبيهات لحساب الدعم",
+    "titleEn":  "Reesh ERP v2.29.0 — Alert Routing Fix for the Support Account",
+    "summary":  "تحديث يصلح فتح شاشة توجيه التنبيهات من حساب الدعم، ويتيح له ضبط التنبيهات وحدودها للشركة المختارة لمساعدة العملاء.",
+    "summaryEn":  "Fixes opening the Alert Routing screen from the support account, and lets it set alerts and their limits for the selected company to help customers.",
     "highlights":  [
-                       "تنزيل التحديث داخل البرنامج مع شريط تقدّم",
-                       "التحقق من بصمة ملف التحديث قبل تشغيله، ورفض أي ملف غير مطابق",
-                       "لا تظهر رسالة حماية ويندوز مع التحديثات القادمة"
+                       "شاشة توجيه التنبيهات تعمل لحساب الدعم على الشركة المختارة من لوحة الشركات",
+                       "تعديلات الدعم لا تُقفل على الطبيب المشرف، وإعدادات صاحب الشركة تبقى مقفولة باسمه",
+                       "رسالة واضحة عند فتح الشاشة قبل اختيار شركة"
                    ],
     "highlightsEn":  [
-                         "Updates download inside the app with a progress bar",
-                         "The update file\u0027s fingerprint is verified before it runs, and any mismatch is rejected",
-                         "No Windows protection prompt with future updates"
+                         "The Alert Routing screen works for the support account on the company selected from the companies dashboard",
+                         "Support edits are not locked for the supervising vet, and the company owner\u0027s settings stay locked under the owner",
+                         "A clear message when the screen is opened before choosing a company"
                      ],
     "changelog":  [
                       {
-                          "category":  "نسخة ويندوز",
-                          "categoryEn":  "Windows",
+                          "category":  "توجيه التنبيهات",
+                          "categoryEn":  "Alert Routing",
                           "items":  [
-                                        "عند فشل التنزيل: إعادة المحاولة، أو التنزيل من المتصفح",
-                                        "يُغلق البرنامج تلقائياً بعد فتح المثبّت حتى يكتمل التحديث"
+                                        "الشاشة تعرض قواعد الشركة المختارة فقط"
                                     ],
                           "itemsEn":  [
-                                          "If the download fails: try again, or download from the browser",
-                                          "The app closes automatically after the installer opens so the update can complete"
+                                          "The screen shows the selected company\u0027s rules only"
                                       ]
                       }
                   ],
-    "notes":  "هذا التحديث وحده قد تظهر معه رسالة حماية ويندوز مرة أخيرة: اضغط (More info) ثم (Run anyway). التحديثات التالية تتم من داخل البرنامج.",
-    "notesEn":  "This update alone may show the Windows protection prompt one last time: click (More info) then (Run anyway). Later updates install from inside the app."
+    "notes":  "على ويندوز: يُنزَّل هذا التحديث ويُثبَّت من داخل البرنامج لمن لديه الإصدار 2.28.0.",
+    "notesEn":  "On Windows: this update downloads and installs from inside the app for anyone on version 2.28.0."
 }
