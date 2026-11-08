@@ -1,38 +1,44 @@
 {
-    "version":  "2.29.0",
-    "build":  51,
-    "releaseDate":  "2026-11-08",
+    "version":  "2.30.0",
+    "build":  52,
+    "releaseDate":  "2026-11-09",
     "minRequiredVersion":  "2.8.0",
-    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh.apk",
-    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/raw/main/Reesh_setup.exe",
-    "windowsSha256":  "11d617db9c2f80f27330cea42afc65754e9bfba7a7536aef4d58dcfdf96d7fb8",
-    "title":  "منظومة ريش v2.29.0 — إصلاح شاشة توجيه التنبيهات لحساب الدعم",
-    "titleEn":  "Reesh ERP v2.29.0 — Alert Routing Fix for the Support Account",
-    "summary":  "تحديث يصلح فتح شاشة توجيه التنبيهات من حساب الدعم، ويتيح له ضبط التنبيهات وحدودها للشركة المختارة لمساعدة العملاء.",
-    "summaryEn":  "Fixes opening the Alert Routing screen from the support account, and lets it set alerts and their limits for the selected company to help customers.",
+    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.30.0/Reesh_setup.exe",
+    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.30.0/Reesh.apk",
+    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.30.0/Reesh_setup.exe",
+    "windowsSha256":  "48c76d490eb89894c356ec05c54cf8615026a36e0835041b92d4f1decd09cac1",
+    "title":  "منظومة ريش v2.30.0 — كشوف الحضور: اليوم المسجّل والأيام الناقصة",
+    "titleEn":  "Reesh ERP v2.30.0 — Attendance Sheets: Recorded Days and Missing Days",
+    "summary":  "تحديث يوضح في كشوف حضور العمال والمهندسين والأطباء البيطريين أن اليوم مسجّل بالفعل مع إمكانية تعديله، ويحمي الكشف من الكتابة فوقه عند ضعف الاتصال، وينبّه المسؤول بالأيام التي لم يُسجَّل عنها كشف.",
+    "summaryEn":  "Attendance sheets for workers, engineers and vets now show when a day is already recorded and can be edited, protect the sheet from being overwritten on a weak connection, and remind the responsible person about days with no sheet.",
     "highlights":  [
-                       "شاشة توجيه التنبيهات تعمل لحساب الدعم على الشركة المختارة من لوحة الشركات",
-                       "تعديلات الدعم لا تُقفل على الطبيب المشرف، وإعدادات صاحب الشركة تبقى مقفولة باسمه",
-                       "رسالة واضحة عند فتح الشاشة قبل اختيار شركة"
+                       "شريط «تم تسجيل حضور اليوم بالفعل» وزر «حفظ التعديلات» مع تأكيد قبل الاستبدال",
+                       "منع الحفظ لو تعذّر تحميل كشف اليوم، حتى لا يُكتب «حاضر» فوق البيانات المسجّلة",
+                       "تنبيه يومي بالأيام التي لم يُسجَّل عنها كشف حضور وانصراف وإجازات في آخر 7 أيام",
+                       "جرس الإشعارات في شاشة المهندس الزراعي"
                    ],
     "highlightsEn":  [
-                         "The Alert Routing screen works for the support account on the company selected from the companies dashboard",
-                         "Support edits are not locked for the supervising vet, and the company owner\u0027s settings stay locked under the owner",
-                         "A clear message when the screen is opened before choosing a company"
+                         "An «already recorded» bar and a «Save changes» button with a confirmation before replacing",
+                         "Saving is blocked if the day\u0027s sheet could not be loaded, so «present» is never written over recorded data",
+                         "A daily reminder of days with no attendance, departure and leave sheet in the last 7 days",
+                         "The notifications bell on the agricultural engineer\u0027s screen"
                      ],
     "changelog":  [
                       {
-                          "category":  "توجيه التنبيهات",
-                          "categoryEn":  "Alert Routing",
+                          "category":  "كشوف الحضور",
+                          "categoryEn":  "Attendance",
                           "items":  [
-                                        "الشاشة تعرض قواعد الشركة المختارة فقط"
+                                        "تنبيه كشف العمال لمهندس المزرعة والطبيب المشرف، وكشف المهندسين لطبيب المزرعة والطبيب المشرف، وكشف الأطباء للطبيب المشرف",
+                                        "الضغط على التنبيه يفتح الكشف الناقص مباشرة",
+                                        "«مهندس المزرعة» متاح كمستلم في شاشة توجيه التنبيهات"
                                     ],
                           "itemsEn":  [
-                                          "The screen shows the selected company\u0027s rules only"
+                                          "Workers sheet reminders go to the farm engineer and the supervising vet, engineers sheet to the farm vet and the supervising vet, vets sheet to the supervising vet",
+                                          "Tapping the reminder opens the missing sheet directly",
+                                          "«Farm engineer» is available as a recipient in Alert Routing"
                                       ]
                       }
                   ],
-    "notes":  "على ويندوز: يُنزَّل هذا التحديث ويُثبَّت من داخل البرنامج لمن لديه الإصدار 2.28.0.",
-    "notesEn":  "On Windows: this update downloads and installs from inside the app for anyone on version 2.28.0."
+    "notes":  "يتم تثبيت التحديث بأمان تام فوق نسختك الحالية دون أي مساس ببياناتك المحفوظة.",
+    "notesEn":  "The update installs safely over your current installation without affecting any of your saved data."
 }
