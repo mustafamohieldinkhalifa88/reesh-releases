@@ -1,33 +1,35 @@
 {
-    "version":  "2.32.1",
-    "build":  55,
+    "version":  "2.32.2",
+    "build":  56,
     "releaseDate":  "2026-11-09",
     "minRequiredVersion":  "2.8.0",
-    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.32.1/Reesh_setup.exe",
-    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.32.1/Reesh.apk",
-    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.32.1/Reesh_setup.exe",
-    "windowsSha256":  "14e758c4e38f0ec4d7ee8bfda68b6fa81b294d8179a33a366ea038e2979cf9be",
-    "title":  "منظومة ريش v2.32.1 — لا يُطلب كود التفعيل بعد تسجيل الخروج",
-    "titleEn":  "Reesh ERP v2.32.1 — No Activation Code Prompt After Logout",
-    "summary":  "إصلاح في نسخة سطح المكتب والأندرويد: بعد تسجيل الخروج كانت تظهر رسالة «انتهت الفترة التجريبية» لشركة مفعّلة وتطلب كود التفعيل من جديد.",
-    "summaryEn":  "Fix for desktop and Android: after logging out, an activated company was shown «Trial Period Expired» and asked for the activation code again.",
+    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.32.2/Reesh_setup.exe",
+    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.32.2/Reesh.apk",
+    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.32.2/Reesh_setup.exe",
+    "windowsSha256":  "663051ab9380173ea9160848ff9f2f7b6dd1d1ba371f1ae77943fa1b81c02ee2",
+    "title":  "منظومة ريش v2.32.2 — إرسال تقارير المرور أوضح",
+    "titleEn":  "Reesh ERP v2.32.2 — Clearer Sending of Visit Reports",
+    "summary":  "تقرير المرور المحفوظ كمسودة لا يراه إلا كاتبه حتى يُرسل؛ صار التطبيق ينبّه لذلك بوضوح ويتيح الإرسال بضغطة من شاشة العرض.",
+    "summaryEn":  "A visit report saved as a draft is visible only to its author until sent; the app now says so clearly and lets you send it in one tap from the view screen.",
     "highlights":  [
-                       "بعد تسجيل الخروج تظهر شاشة الدخول مباشرة بدون طلب كود التفعيل",
-                       "ترخيص الشركة يُفحص بعد الدخول من السحابة كما في نسخة الويب"
+                       "زر «إرسال التقرير» في شاشة عرض المسودة مباشرة",
+                       "شريط برتقالي يوضح أن المسودة لم تُرسل ولا يراها أحد غيرك",
+                       "تنبيه في قائمة التقارير بعدد المسودات غير المرسلة"
                    ],
     "highlightsEn":  [
-                         "After logging out, the login screen appears directly without asking for the activation code",
-                         "The company license is checked from the cloud after login, as on the web version"
+                         "A «Send report» button right on the draft view screen",
+                         "An orange banner explains the draft is not sent and only you can see it",
+                         "A notice in the reports list with the number of unsent drafts"
                      ],
     "changelog":  [
                       {
-                          "category":  "التفعيل",
-                          "categoryEn":  "Activation",
+                          "category":  "تقارير المرور",
+                          "categoryEn":  "Visit Reports",
                           "items":  [
-                                        "لم تعد رسالة انتهاء الفترة التجريبية تظهر خارج الحساب لشركة مفعّلة"
+                                        "رسالة حفظ المسودة توضح أنها لن تصل لأحد قبل الإرسال"
                                     ],
                           "itemsEn":  [
-                                          "The trial expired message no longer appears while logged out for an activated company"
+                                          "The draft save message explains it reaches nobody until sent"
                                       ]
                       }
                   ],
