@@ -1,36 +1,36 @@
 {
-    "version":  "2.33.0",
-    "build":  58,
+    "version":  "2.33.1",
+    "build":  59,
     "releaseDate":  "2026-11-09",
     "minRequiredVersion":  "2.8.0",
-    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.0/Reesh_setup.exe",
-    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.0/Reesh.apk",
-    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.0/Reesh_setup.exe",
-    "windowsSha256":  "eb285da7d428de7bfeadf112957ed0f8af267c2e59868fbc5dee00c62b5a4609",
-    "androidSha256":  "d3e18ab3fcf5f6083ef1641c0e8989e480027ac7f2d58d3392415311dba41b88",
-    "title":  "منظومة ريش v2.33.0 — تحديث الأندرويد من داخل التطبيق",
-    "titleEn":  "Reesh ERP v2.33.0 — In-App Android Updates",
-    "summary":  "من هذا الإصدار، ينزّل تطبيق الأندرويد تحديثاته بنفسه مع شريط تقدّم ويتحقق من سلامة الملف، ثم يفتح شاشة التثبيت مباشرة بدون المتصفح.",
-    "summaryEn":  "From this version, the Android app downloads its own updates with a progress bar and verifies the file, then opens the install screen directly without the browser.",
+    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.1/Reesh_setup.exe",
+    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.1/Reesh.apk",
+    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.1/Reesh_setup.exe",
+    "windowsSha256":  "1a1e35ea4465f90cfad08fe38aa29eaf0b9d7035f077ece28504b82dd8310a91",
+    "androidSha256":  "19c8c8f74e198e66bda69ad98425b3910f7312eb008479c695095c7213530071",
+    "title":  "منظومة ريش v2.33.1 — المعاملات البيطرية كاملة في التقرير اليومي",
+    "titleEn":  "Reesh ERP v2.33.1 — Full Veterinary Treatments in the Daily Report",
+    "summary":  "إصلاح في ملف PDF للتقرير اليومي وتقرير الدورة: جدول المعاملات البيطرية كان يختفي عندما لا تتسع له الصفحة، وصار التقرير يكمل في صفحة ثانية.",
+    "summaryEn":  "Fix for the daily and cycle PDF reports: the veterinary treatments table disappeared when the page had no room; the report now continues on a second page.",
     "highlights":  [
-                       "تنزيل التحديث داخل التطبيق مع شريط تقدّم",
-                       "التحقق من بصمة الملف قبل التثبيت، ورفضه إن لم يطابق",
-                       "أول مرة فقط: يطلب Android السماح لريش بتثبيت التحديثات"
+                       "جدول المعاملات البيطرية يظهر كاملاً في التقرير اليومي",
+                       "التقرير يكمل في صفحة ثانية بدل حذف ما لا يتسع",
+                       "كل قسم ينتقل مع عنوانه، والأرقام بدون «.0» زائدة"
                    ],
     "highlightsEn":  [
-                         "The update downloads inside the app with a progress bar",
-                         "The file fingerprint is verified before installing, and rejected if it does not match",
-                         "First time only: Android asks you to allow Reesh to install updates"
+                         "The veterinary treatments table appears in full in the daily report",
+                         "The report continues on a second page instead of dropping what does not fit",
+                         "Each section moves with its title, and numbers have no extra «.0»"
                      ],
     "changelog":  [
                       {
-                          "category":  "التحديثات",
-                          "categoryEn":  "Updates",
+                          "category":  "تقارير PDF",
+                          "categoryEn":  "PDF Reports",
                           "items":  [
-                                        "يبدأ التحديث الداخلي للأندرويد من التحديث التالي لهذا الإصدار"
+                                        "التقرير اليومي وتقرير الدورة المجمّع صارا متعددي الصفحات"
                                     ],
                           "itemsEn":  [
-                                          "In-app Android updating starts with the update after this version"
+                                          "The daily report and the consolidated cycle report are now multi-page"
                                       ]
                       }
                   ],
