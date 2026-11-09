@@ -1,41 +1,43 @@
 {
-    "version":  "2.30.0",
-    "build":  52,
+    "version":  "2.31.0",
+    "build":  53,
     "releaseDate":  "2026-11-09",
     "minRequiredVersion":  "2.8.0",
-    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.30.0/Reesh_setup.exe",
-    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.30.0/Reesh.apk",
-    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.30.0/Reesh_setup.exe",
-    "windowsSha256":  "48c76d490eb89894c356ec05c54cf8615026a36e0835041b92d4f1decd09cac1",
-    "title":  "منظومة ريش v2.30.0 — كشوف الحضور: اليوم المسجّل والأيام الناقصة",
-    "titleEn":  "Reesh ERP v2.30.0 — Attendance Sheets: Recorded Days and Missing Days",
-    "summary":  "تحديث يوضح في كشوف حضور العمال والمهندسين والأطباء البيطريين أن اليوم مسجّل بالفعل مع إمكانية تعديله، ويحمي الكشف من الكتابة فوقه عند ضعف الاتصال، وينبّه المسؤول بالأيام التي لم يُسجَّل عنها كشف.",
-    "summaryEn":  "Attendance sheets for workers, engineers and vets now show when a day is already recorded and can be edited, protect the sheet from being overwritten on a weak connection, and remind the responsible person about days with no sheet.",
+    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.31.0/Reesh_setup.exe",
+    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.31.0/Reesh.apk",
+    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.31.0/Reesh_setup.exe",
+    "windowsSha256":  "f31c86d0d2fc910027442e991458d6546cf9e62b548000bb0f7522413073dbe7",
+    "title":  "منظومة ريش v2.31.0 — تقارير المرور والملاحظات البيطرية",
+    "titleEn":  "Reesh ERP v2.31.0 — Veterinary Visit and Observation Reports",
+    "summary":  "تحديث يضيف للأطباء البيطريين تقرير مرور على المزارع: قائمة فحص، وملاحظات بأهميتها، وتوصيات بمسؤول وموعد يتابعها المهندس حتى التنفيذ، مع تقرير PDF جاهز للطباعة.",
+    "summaryEn":  "Vets can now write farm visit reports: a checklist, findings with severity, and actions with an owner and a due date that the engineer follows to completion, with a print-ready PDF.",
     "highlights":  [
-                       "شريط «تم تسجيل حضور اليوم بالفعل» وزر «حفظ التعديلات» مع تأكيد قبل الاستبدال",
-                       "منع الحفظ لو تعذّر تحميل كشف اليوم، حتى لا يُكتب «حاضر» فوق البيانات المسجّلة",
-                       "تنبيه يومي بالأيام التي لم يُسجَّل عنها كشف حضور وانصراف وإجازات في آخر 7 أيام",
-                       "جرس الإشعارات في شاشة المهندس الزراعي"
+                       "تقرير مرور بلقطة تلقائية من آخر تقرير يومي: العدد، والنافق، والوزن مقابل القياسي، ومعامل التحويل",
+                       "قائمة فحص بتقييم بضغطة، وملاحظات بالعنبر والأهمية (عادية، مهمة، عاجلة)",
+                       "توصيات كمهام متابعة: المهندس يضغط «اطّلعت» ويعلّم «تم التنفيذ»، وتنبيه لو فات الموعد",
+                       "تقرير PDF على صفحة A4 بالشعار والتوقيعات",
+                       "صاحب الشركة والطبيب المشرف يعدّلون بنود قائمة الفحص من الإعدادات"
                    ],
     "highlightsEn":  [
-                         "An «already recorded» bar and a «Save changes» button with a confirmation before replacing",
-                         "Saving is blocked if the day\u0027s sheet could not be loaded, so «present» is never written over recorded data",
-                         "A daily reminder of days with no attendance, departure and leave sheet in the last 7 days",
-                         "The notifications bell on the agricultural engineer\u0027s screen"
+                         "A visit report with an automatic snapshot from the latest daily report: birds, mortality, weight against the standard, and FCR",
+                         "A one-tap checklist, and findings by barn and severity (normal, important, urgent)",
+                         "Actions as follow-up tasks: the engineer acknowledges and marks them done, with a reminder when one is overdue",
+                         "A one-page A4 PDF with the logo and signatures",
+                         "The company owner and the supervising vet edit the checklist items in Settings"
                      ],
     "changelog":  [
                       {
-                          "category":  "كشوف الحضور",
-                          "categoryEn":  "Attendance",
+                          "category":  "تقارير المرور",
+                          "categoryEn":  "Visit Reports",
                           "items":  [
-                                        "تنبيه كشف العمال لمهندس المزرعة والطبيب المشرف، وكشف المهندسين لطبيب المزرعة والطبيب المشرف، وكشف الأطباء للطبيب المشرف",
-                                        "الضغط على التنبيه يفتح الكشف الناقص مباشرة",
-                                        "«مهندس المزرعة» متاح كمستلم في شاشة توجيه التنبيهات"
+                                        "مسودة ثم إرسال، والتعديل بعد الإرسال لكاتب التقرير مع حفظ سجل التعديلات",
+                                        "الإرسال ينبّه مهندس المزرعة والطبيب المشرف وصاحب الشركة، مع «عاجلة» في العنوان عند الحاجة",
+                                        "المهندس يرى تقارير مزرعته من شاشته الرئيسية"
                                     ],
                           "itemsEn":  [
-                                          "Workers sheet reminders go to the farm engineer and the supervising vet, engineers sheet to the farm vet and the supervising vet, vets sheet to the supervising vet",
-                                          "Tapping the reminder opens the missing sheet directly",
-                                          "«Farm engineer» is available as a recipient in Alert Routing"
+                                          "Draft then send; after sending only the author can edit, with the edit history kept",
+                                          "Sending notifies the farm engineer, the supervising vet and the company owner, marked urgent when needed",
+                                          "Engineers see their farm\u0027s reports from their home screen"
                                       ]
                       }
                   ],
