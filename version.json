@@ -1,33 +1,36 @@
 {
-    "version":  "2.32.3",
-    "build":  57,
+    "version":  "2.33.0",
+    "build":  58,
     "releaseDate":  "2026-11-09",
     "minRequiredVersion":  "2.8.0",
-    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.32.3/Reesh_setup.exe",
-    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.32.3/Reesh.apk",
-    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.32.3/Reesh_setup.exe",
-    "windowsSha256":  "96d9a583bb56d4c86098f4eb08398fda8626fd44b58f5c7490c166b854156f3c",
-    "title":  "منظومة ريش v2.32.3 — البدء من شاشة الدخول مباشرة",
-    "titleEn":  "Reesh ERP v2.32.3 — Start Directly at the Login Screen",
-    "summary":  "أول تشغيل لنسخة ويندوز والأندرويد يفتح شاشة الدخول مباشرة بدل شاشة الترحيب، وفيها تأسيس الشركة بكود التفعيل وطلب كود تجريبي.",
-    "summaryEn":  "The first launch on Windows and Android opens the login screen directly instead of the welcome screen; it includes company setup with an activation code and requesting a trial code.",
+    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.0/Reesh_setup.exe",
+    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.0/Reesh.apk",
+    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.0/Reesh_setup.exe",
+    "windowsSha256":  "eb285da7d428de7bfeadf112957ed0f8af267c2e59868fbc5dee00c62b5a4609",
+    "androidSha256":  "d3e18ab3fcf5f6083ef1641c0e8989e480027ac7f2d58d3392415311dba41b88",
+    "title":  "منظومة ريش v2.33.0 — تحديث الأندرويد من داخل التطبيق",
+    "titleEn":  "Reesh ERP v2.33.0 — In-App Android Updates",
+    "summary":  "من هذا الإصدار، ينزّل تطبيق الأندرويد تحديثاته بنفسه مع شريط تقدّم ويتحقق من سلامة الملف، ثم يفتح شاشة التثبيت مباشرة بدون المتصفح.",
+    "summaryEn":  "From this version, the Android app downloads its own updates with a progress bar and verifies the file, then opens the install screen directly without the browser.",
     "highlights":  [
-                       "لا تظهر شاشة الترحيب والفترة التجريبية عند أول تشغيل",
-                       "تأسيس الشركة بكود التفعيل وطلب كود تجريبي من شاشة الدخول"
+                       "تنزيل التحديث داخل التطبيق مع شريط تقدّم",
+                       "التحقق من بصمة الملف قبل التثبيت، ورفضه إن لم يطابق",
+                       "أول مرة فقط: يطلب Android السماح لريش بتثبيت التحديثات"
                    ],
     "highlightsEn":  [
-                         "The welcome and trial screen no longer appears on first launch",
-                         "Company setup with an activation code and trial code requests are on the login screen"
+                         "The update downloads inside the app with a progress bar",
+                         "The file fingerprint is verified before installing, and rejected if it does not match",
+                         "First time only: Android asks you to allow Reesh to install updates"
                      ],
     "changelog":  [
                       {
-                          "category":  "بدء الاستخدام",
-                          "categoryEn":  "Getting Started",
+                          "category":  "التحديثات",
+                          "categoryEn":  "Updates",
                           "items":  [
-                                        "أول تشغيل على ويندوز والأندرويد يبدأ من شاشة الدخول"
+                                        "يبدأ التحديث الداخلي للأندرويد من التحديث التالي لهذا الإصدار"
                                     ],
                           "itemsEn":  [
-                                          "The first launch on Windows and Android starts at the login screen"
+                                          "In-app Android updating starts with the update after this version"
                                       ]
                       }
                   ],
