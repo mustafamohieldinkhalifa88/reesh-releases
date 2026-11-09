@@ -1,36 +1,36 @@
 {
-    "version":  "2.33.1",
-    "build":  59,
-    "releaseDate":  "2026-11-09",
+    "version":  "2.33.2",
+    "build":  60,
+    "releaseDate":  "2026-11-10",
     "minRequiredVersion":  "2.8.0",
-    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.1/Reesh_setup.exe",
-    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.1/Reesh.apk",
-    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.1/Reesh_setup.exe",
-    "windowsSha256":  "1a1e35ea4465f90cfad08fe38aa29eaf0b9d7035f077ece28504b82dd8310a91",
-    "androidSha256":  "19c8c8f74e198e66bda69ad98425b3910f7312eb008479c695095c7213530071",
-    "title":  "منظومة ريش v2.33.1 — المعاملات البيطرية كاملة في التقرير اليومي",
-    "titleEn":  "Reesh ERP v2.33.1 — Full Veterinary Treatments in the Daily Report",
-    "summary":  "إصلاح في ملف PDF للتقرير اليومي وتقرير الدورة: جدول المعاملات البيطرية كان يختفي عندما لا تتسع له الصفحة، وصار التقرير يكمل في صفحة ثانية.",
-    "summaryEn":  "Fix for the daily and cycle PDF reports: the veterinary treatments table disappeared when the page had no room; the report now continues on a second page.",
+    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.2/Reesh_setup.exe",
+    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.2/Reesh.apk",
+    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.2/Reesh_setup.exe",
+    "windowsSha256":  "e78ccc58fbbe1ec82b7ee5e799024bee15912a97f67d9806bdf599d4014f3bfb",
+    "androidSha256":  "1e5613da72f7d415adfeafa8e397dd9624376692b657a535f04a8264ee119325",
+    "title":  "منظومة ريش v2.33.2 — جداول أوضح وأزرار مقروءة",
+    "titleEn":  "Reesh ERP v2.33.2 — Clearer Tables and Readable Buttons",
+    "summary":  "إطار جداول التقرير اليومي يظهر كاملاً على الهاتف، وزر «تصدير PDF» وأزرار الاعتماد صارت كتابتها واضحة.",
+    "summaryEn":  "Daily report table borders now show in full on phones, and the «Export PDF» and approval buttons have readable text.",
     "highlights":  [
-                       "جدول المعاملات البيطرية يظهر كاملاً في التقرير اليومي",
-                       "التقرير يكمل في صفحة ثانية بدل حذف ما لا يتسع",
-                       "كل قسم ينتقل مع عنوانه، والأرقام بدون «.0» زائدة"
+                       "إطار خارجي أوضح لجداول التقرير اليومي وتقرير الدورة",
+                       "زر «تصدير PDF» في شاشة التحليلات صار مقروءاً",
+                       "أزرار الاعتماد في لوحة الإدارة بكتابة واضحة"
                    ],
     "highlightsEn":  [
-                         "The veterinary treatments table appears in full in the daily report",
-                         "The report continues on a second page instead of dropping what does not fit",
-                         "Each section moves with its title, and numbers have no extra «.0»"
+                         "A clearer outer border for the daily and cycle report tables",
+                         "The «Export PDF» button on the analytics screen is now readable",
+                         "The approval buttons on the admin dashboard have clear text"
                      ],
     "changelog":  [
                       {
-                          "category":  "تقارير PDF",
-                          "categoryEn":  "PDF Reports",
+                          "category":  "الواجهة وتقارير PDF",
+                          "categoryEn":  "Interface and PDF Reports",
                           "items":  [
-                                        "التقرير اليومي وتقرير الدورة المجمّع صارا متعددي الصفحات"
+                                        "إصلاح ألوان الأزرار ذات الكتابة غير الواضحة"
                                     ],
                           "itemsEn":  [
-                                          "The daily report and the consolidated cycle report are now multi-page"
+                                          "Fixed button colors with unreadable text"
                                       ]
                       }
                   ],
