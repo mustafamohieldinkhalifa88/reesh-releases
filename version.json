@@ -1,36 +1,36 @@
 {
-    "version":  "2.33.2",
-    "build":  60,
+    "version":  "2.33.3",
+    "build":  61,
     "releaseDate":  "2026-11-10",
     "minRequiredVersion":  "2.8.0",
-    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.2/Reesh_setup.exe",
-    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.2/Reesh.apk",
-    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.2/Reesh_setup.exe",
-    "windowsSha256":  "e78ccc58fbbe1ec82b7ee5e799024bee15912a97f67d9806bdf599d4014f3bfb",
-    "androidSha256":  "1e5613da72f7d415adfeafa8e397dd9624376692b657a535f04a8264ee119325",
-    "title":  "منظومة ريش v2.33.2 — جداول أوضح وأزرار مقروءة",
-    "titleEn":  "Reesh ERP v2.33.2 — Clearer Tables and Readable Buttons",
-    "summary":  "إطار جداول التقرير اليومي يظهر كاملاً على الهاتف، وزر «تصدير PDF» وأزرار الاعتماد صارت كتابتها واضحة.",
-    "summaryEn":  "Daily report table borders now show in full on phones, and the «Export PDF» and approval buttons have readable text.",
+    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.3/Reesh_setup.exe",
+    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.3/Reesh.apk",
+    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.3/Reesh_setup.exe",
+    "windowsSha256":  "f3a590a9a4c5d4175514894e06338faef5e5aee4d816590a3290107410a9642c",
+    "androidSha256":  "7ae2d5dd1366c0a41d8effe756a20ebd1dcbce5a1a7bae919cdbdf83670421f9",
+    "title":  "منظومة ريش v2.33.3 — معامل تحويل دقيق دائماً",
+    "titleEn":  "Reesh ERP v2.33.3 — Always-Accurate FCR",
+    "summary":  "حماية حساب معامل التحويل من الأوزان المكتوبة بالكيلو بدل الجرام في التقارير القديمة، فلا يقفز المعامل للآلاف ولا يصل تنبيه كاذب.",
+    "summaryEn":  "FCR is protected from weights entered in kilograms instead of grams in older reports, so it no longer jumps into the thousands or triggers a false alert.",
     "highlights":  [
-                       "إطار خارجي أوضح لجداول التقرير اليومي وتقرير الدورة",
-                       "زر «تصدير PDF» في شاشة التحليلات صار مقروءاً",
-                       "أزرار الاعتماد في لوحة الإدارة بكتابة واضحة"
+                       "معامل التحويل يبقى على آخر قياس صحيح إذا كان وزن قديم مكتوباً بالكيلو",
+                       "منحنى الوزن لا يرسم نقاطاً خاطئة قرب الصفر",
+                       "نموذج التقرير اليومي يرفض الوزن المكتوب بالكيلو كما كان"
                    ],
     "highlightsEn":  [
-                         "A clearer outer border for the daily and cycle report tables",
-                         "The «Export PDF» button on the analytics screen is now readable",
-                         "The approval buttons on the admin dashboard have clear text"
+                         "FCR stays on the last valid measurement if an old weight was entered in kilograms",
+                         "The weight curve no longer draws wrong points near zero",
+                         "The daily report form still rejects weights entered in kilograms"
                      ],
     "changelog":  [
                       {
-                          "category":  "الواجهة وتقارير PDF",
-                          "categoryEn":  "Interface and PDF Reports",
+                          "category":  "التحليلات",
+                          "categoryEn":  "Analytics",
                           "items":  [
-                                        "إصلاح ألوان الأزرار ذات الكتابة غير الواضحة"
+                                        "تجاهل الأوزان غير المنطقية (أقل من 20 جم) في حساب الأداء"
                                     ],
                           "itemsEn":  [
-                                          "Fixed button colors with unreadable text"
+                                          "Implausible weights (under 20 g) are ignored in performance calculations"
                                       ]
                       }
                   ],
