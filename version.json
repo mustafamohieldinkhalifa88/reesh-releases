@@ -1,36 +1,40 @@
 {
-    "version":  "2.33.3",
-    "build":  61,
-    "releaseDate":  "2026-11-10",
+    "version":  "2.34.0",
+    "build":  62,
+    "releaseDate":  "2026-11-12",
     "minRequiredVersion":  "2.8.0",
-    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.3/Reesh_setup.exe",
-    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.3/Reesh.apk",
-    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.33.3/Reesh_setup.exe",
-    "windowsSha256":  "f3a590a9a4c5d4175514894e06338faef5e5aee4d816590a3290107410a9642c",
-    "androidSha256":  "7ae2d5dd1366c0a41d8effe756a20ebd1dcbce5a1a7bae919cdbdf83670421f9",
-    "title":  "منظومة ريش v2.33.3 — معامل تحويل دقيق دائماً",
-    "titleEn":  "Reesh ERP v2.33.3 — Always-Accurate FCR",
-    "summary":  "حماية حساب معامل التحويل من الأوزان المكتوبة بالكيلو بدل الجرام في التقارير القديمة، فلا يقفز المعامل للآلاف ولا يصل تنبيه كاذب.",
-    "summaryEn":  "FCR is protected from weights entered in kilograms instead of grams in older reports, so it no longer jumps into the thousands or triggers a false alert.",
+    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.34.0/Reesh_setup.exe",
+    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.34.0/Reesh.apk",
+    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.34.0/Reesh_setup.exe",
+    "windowsSha256":  "18542a2afd75b496f83d0a25ba688ba2a835476185fc8a90b369a990a6ed4012",
+    "androidSha256":  "7d8d6ba9387c6b199c549b56723f5a5a4e07c93d4f5a17dd82e4158fe8d2c14f",
+    "title":  "منظومة ريش v2.34.0 — باقات جديدة وحد الحسابات",
+    "titleEn":  "Reesh ERP v2.34.0 — New Plans and Account Limits",
+    "summary":  "باقات ريش الجديدة: مربي ومزرعة وأعمال وشركات. لوحة الباقة تعرض الحسابات المستخدمة من حدها، والتملك الدائم صار له موعد خدمة يُجدَّد بكود من نفس الشاشة.",
+    "summaryEn":  "Reesh\u0027s new plans: Breeder, Farm, Business and Enterprise. The plan panel shows accounts used against the limit, and lifetime licenses now have a service date renewed with a code from the same screen.",
     "highlights":  [
-                       "معامل التحويل يبقى على آخر قياس صحيح إذا كان وزن قديم مكتوباً بالكيلو",
-                       "منحنى الوزن لا يرسم نقاطاً خاطئة قرب الصفر",
-                       "نموذج التقرير اليومي يرفض الوزن المكتوب بالكيلو كما كان"
+                       "لوحة الباقة لصاحب الشركة تعرض اسم الباقة والحسابات المستخدمة وموعد الخدمة",
+                       "تنبيه واضح قبل إضافة حساب جديد إذا امتلأ حد الباقة",
+                       "تجديد خدمة الترخيص الدائم بكود، مع تنبيه قبل انتهائها وخلال مهلة 90 يوماً"
                    ],
     "highlightsEn":  [
-                         "FCR stays on the last valid measurement if an old weight was entered in kilograms",
-                         "The weight curve no longer draws wrong points near zero",
-                         "The daily report form still rejects weights entered in kilograms"
+                         "The owner\u0027s plan panel shows the plan name, accounts used and the service date",
+                         "A clear message before adding an account when the plan limit is reached",
+                         "Lifetime license service renews with a code, with a warning before it ends and during the 90-day grace period"
                      ],
     "changelog":  [
                       {
-                          "category":  "التحليلات",
-                          "categoryEn":  "Analytics",
+                          "category":  "الباقات والترخيص",
+                          "categoryEn":  "Plans and licensing",
                           "items":  [
-                                        "تجاهل الأوزان غير المنطقية (أقل من 20 جم) في حساب الأداء"
+                                        "أسماء الباقات الجديدة في شاشة التسجيل والإعدادات",
+                                        "عرض «بلا حد» بدل الرقم 999 في باقة الشركات",
+                                        "دليل المستخدم: صفحتان جديدتان عن الباقة والترقية والتجديد"
                                     ],
                           "itemsEn":  [
-                                          "Implausible weights (under 20 g) are ignored in performance calculations"
+                                          "New plan names on the registration and settings screens",
+                                          "Shows unlimited instead of 999 on the Enterprise plan",
+                                          "User guide: two new pages on plans, upgrades and renewals"
                                       ]
                       }
                   ],
