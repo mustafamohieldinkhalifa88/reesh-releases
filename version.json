@@ -1,40 +1,36 @@
 {
-    "version":  "2.34.0",
-    "build":  62,
+    "version":  "2.35.0",
+    "build":  63,
     "releaseDate":  "2026-11-12",
     "minRequiredVersion":  "2.8.0",
-    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.34.0/Reesh_setup.exe",
-    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.34.0/Reesh.apk",
-    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.34.0/Reesh_setup.exe",
-    "windowsSha256":  "18542a2afd75b496f83d0a25ba688ba2a835476185fc8a90b369a990a6ed4012",
-    "androidSha256":  "7d8d6ba9387c6b199c549b56723f5a5a4e07c93d4f5a17dd82e4158fe8d2c14f",
-    "title":  "منظومة ريش v2.34.0 — باقات جديدة وحد الحسابات",
-    "titleEn":  "Reesh ERP v2.34.0 — New Plans and Account Limits",
-    "summary":  "باقات ريش الجديدة: مربي ومزرعة وأعمال وشركات. لوحة الباقة تعرض الحسابات المستخدمة من حدها، والتملك الدائم صار له موعد خدمة يُجدَّد بكود من نفس الشاشة.",
-    "summaryEn":  "Reesh\u0027s new plans: Breeder, Farm, Business and Enterprise. The plan panel shows accounts used against the limit, and lifetime licenses now have a service date renewed with a code from the same screen.",
+    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.35.0/Reesh_setup.exe",
+    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.35.0/Reesh.apk",
+    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.35.0/Reesh_setup.exe",
+    "windowsSha256":  "ae0569d3c41647a8f993e2e052f402ecd0e1b0ac5fc6f402219117d391d1a96f",
+    "androidSha256":  "eb0f45b2bd170f624abae2955e41dc014e6f643b3078ec7eacc67068748073ec",
+    "title":  "منظومة ريش v2.35.0 — شاشة رئيسية أوضح على الهاتف",
+    "titleEn":  "Reesh ERP v2.35.0 — Clearer Home Screen on Phones",
+    "summary":  "اسم الشركة واسم المستخدم ووظيفته يظهرون كاملين أعلى الشاشة الرئيسية على الهاتف، وبطاقة دليل البدء السريع لم تعد تقص عنوانها.",
+    "summaryEn":  "The company name, user name and role now show in full at the top of the home screen on phones, and the quick-start card no longer cuts its title.",
     "highlights":  [
-                       "لوحة الباقة لصاحب الشركة تعرض اسم الباقة والحسابات المستخدمة وموعد الخدمة",
-                       "تنبيه واضح قبل إضافة حساب جديد إذا امتلأ حد الباقة",
-                       "تجديد خدمة الترخيص الدائم بكود، مع تنبيه قبل انتهائها وخلال مهلة 90 يوماً"
+                       "اسم المستخدم لا ينكسر كلمة في كل سطر على الهاتف",
+                       "الشعارات ومؤشر الصحة في صف، والأسماء تحتها بعرض الشاشة",
+                       "عنوان دليل البدء السريع كامل وزر الجولة تحته على الهاتف"
                    ],
     "highlightsEn":  [
-                         "The owner\u0027s plan panel shows the plan name, accounts used and the service date",
-                         "A clear message before adding an account when the plan limit is reached",
-                         "Lifetime license service renews with a code, with a warning before it ends and during the 90-day grace period"
+                         "The user name no longer breaks one word per line on phones",
+                         "Logos and the health index sit in one row, with names below at full width",
+                         "The quick-start title shows in full with the tour button below it on phones"
                      ],
     "changelog":  [
                       {
-                          "category":  "الباقات والترخيص",
-                          "categoryEn":  "Plans and licensing",
+                          "category":  "الواجهة",
+                          "categoryEn":  "Interface",
                           "items":  [
-                                        "أسماء الباقات الجديدة في شاشة التسجيل والإعدادات",
-                                        "عرض «بلا حد» بدل الرقم 999 في باقة الشركات",
-                                        "دليل المستخدم: صفحتان جديدتان عن الباقة والترقية والتجديد"
+                                        "رأس الشاشة الرئيسية يتكيف مع الشاشات الضيقة على أندرويد والويب"
                                     ],
                           "itemsEn":  [
-                                          "New plan names on the registration and settings screens",
-                                          "Shows unlimited instead of 999 on the Enterprise plan",
-                                          "User guide: two new pages on plans, upgrades and renewals"
+                                          "The home screen header adapts to narrow screens on Android and the web"
                                       ]
                       }
                   ],
