@@ -1,34 +1,36 @@
 {
-    "version":  "2.36.0",
-    "build":  64,
+    "version":  "2.37.0",
+    "build":  65,
     "releaseDate":  "2026-11-12",
     "minRequiredVersion":  "2.8.0",
-    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.36.0/Reesh_setup.exe",
-    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.36.0/Reesh.apk",
-    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.36.0/Reesh_setup.exe",
-    "windowsSha256":  "1c5935c6a4aa2497d8e8b94285364ba3bed5ae92f246afdc52a154b496a67ce8",
-    "androidSha256":  "20baa20edc39b51c1344266c83fc3975a39ac370769e81aefb9291fa7a1197cd",
-    "title":  "منظومة ريش v2.36.0 — وصف أدق للمنظومة",
-    "titleEn":  "Reesh ERP v2.36.0 — More Accurate Descriptions",
-    "summary":  "تصحيح نصوص الجولة التعريفية وبطاقة دليل البدء السريع: ريش يعمل على الكمبيوتر والموبايل والويب بمزامنة لحظية ويحتاج اتصالاً بالإنترنت.",
-    "summaryEn":  "The quick tour and quick-start card now describe Reesh accurately: it works on computer, phone and web with instant sync and needs an internet connection.",
+    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.37.0/Reesh_setup.exe",
+    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.37.0/Reesh.apk",
+    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.37.0/Reesh_setup.exe",
+    "windowsSha256":  "d60898a78640ee965bf3483ba3ddb739a05a3da5257a239e4af2e855c0d3f09d",
+    "androidSha256":  "b10ec055edcf81f595089ea86588bc4a69c4a2a7ac25a6c5096bbfed6061c341",
+    "title":  "منظومة ريش v2.37.0 — واجهة إنجليزية أكمل",
+    "titleEn":  "Reesh ERP v2.37.0 — More Complete English Interface",
+    "summary":  "رسائل الخادم تظهر بلغة الواجهة، ووصف الدورة في تقارير المرور يظهر بلغة القارئ، مع ترجمة نصوص صغيرة كانت بالعربية فقط.",
+    "summaryEn":  "Server messages now follow the interface language, the cycle label in visit reports shows in the reader\u0027s language, and a few Arabic-only texts are translated.",
     "highlights":  [
-                       "الجولة التعريفية توضح أن ريش يحتاج اتصالاً بالإنترنت",
-                       "بطاقة دليل البدء السريع تذكر تقارير المرور البيطرية"
+                       "رسائل انتهاء الاشتراك وحدود الباقة والمزرعة المؤرشفة بالعربية والإنجليزية",
+                       "وصف الدورة في تقرير المرور وملف PDF بلغة القارئ",
+                       "شارات الحالة وشاشة البداية مترجمة"
                    ],
     "highlightsEn":  [
-                         "The quick tour states that Reesh needs an internet connection",
-                         "The quick-start card mentions vet visit reports"
+                         "Subscription, plan limit and archived farm messages in Arabic and English",
+                         "The cycle label in visit reports and their PDF follows the reader\u0027s language",
+                         "Status badges and the welcome screen are translated"
                      ],
     "changelog":  [
                       {
-                          "category":  "الواجهة",
-                          "categoryEn":  "Interface",
+                          "category":  "اللغة",
+                          "categoryEn":  "Language",
                           "items":  [
-                                        "تصحيح نصوص الجولة التعريفية بالعربية والإنجليزية"
+                                        "ترجمة رسائل أخطاء الخادم عند الحفظ وإنشاء الحسابات"
                                     ],
                           "itemsEn":  [
-                                          "Corrected quick tour texts in Arabic and English"
+                                          "Server error messages are translated when saving and creating accounts"
                                       ]
                       }
                   ],
