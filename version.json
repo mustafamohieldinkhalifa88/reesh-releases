@@ -1,50 +1,48 @@
 {
-    "version":  "2.39.0",
-    "build":  67,
+    "version":  "2.40.0",
+    "build":  68,
     "releaseDate":  "2026-11-17",
     "minRequiredVersion":  "2.8.0",
-    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.39.0/Reesh_setup.exe",
-    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.39.0/Reesh.apk",
-    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.39.0/Reesh_setup.exe",
-    "windowsSha256":  "28e05ee5e19770924ee731fb1c9e60781b59e348e20e1f62b267c1f0d9204528",
-    "androidSha256":  "1bf0edff134042132bba732784a74ce68ef76b7f4cc4b00a837dd40c69e0e009",
-    "title":  "منظومة ريش v2.39.0 — دقة التقارير وتعيين المهندسين",
-    "titleEn":  "Reesh ERP v2.39.0 — Report Accuracy and Engineer Assignment",
-    "summary":  "تعديل تقرير اليوم يحافظ على علامات الرعاية البيطرية، وتعيين المهندسين أدق، وحفظ التقرير لا يُضيع إنتاج البيض.",
-    "summaryEn":  "Editing today\u0027s report keeps vet care records, engineer assignment is more accurate, and saving a report no longer loses egg production.",
+    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.40.0/Reesh_setup.exe",
+    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.40.0/Reesh.apk",
+    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.40.0/Reesh_setup.exe",
+    "windowsSha256":  "4a0d7e129f14e1057b0ef6254344725669f9f79e65ce0d8b4919895947a432fd",
+    "androidSha256":  "855841eb99db4b5bcd5d261ec4e2d41b7b5cec8cc5e8f2c087a0654f6f6b3c7a",
+    "title":  "منظومة ريش v2.40.0 — تقارير مرور أدق وصلاحيات أحكم",
+    "titleEn":  "Reesh ERP v2.40.0 — More Accurate Visit Reports and Tighter Permissions",
+    "summary":  "تقرير المرور البيطري يعرض آخر وزن مسجل ومعامل التحويل الصحيح، وتعديل تقرير قديم يحتفظ بدورته، مع إحكام صلاحيات طلبات الأيام الفائتة.",
+    "summaryEn":  "Visit reports show the latest recorded weight and the correct FCR, editing an old report keeps its own cycle, and missing-day request permissions are tightened.",
     "highlights":  [
-                       "تعديل تقرير اليوم لا يمسح اللقاحات المسجلة فيه",
-                       "إضافة مهندس مساعد أو نقل مهندس لا يغيّر المهندس الرئيسي ولا يترك وصولاً للمزرعة القديمة",
-                       "حفظ التقرير لا يُضيع إنتاج البيض أو العلاجات عند انقطاع الشبكة"
+                       "الوزن ومعامل التحويل في تقرير المرور من آخر يوم وزن، مع تاريخه",
+                       "تعديل تقرير مرور قديم يحتفظ برقم دورته ونوعها",
+                       "اعتماد طلبات الأيام الفائتة للطبيب والإدارة فقط"
                    ],
     "highlightsEn":  [
-                         "Editing today\u0027s report no longer erases its recorded vaccinations",
-                         "Adding a co-engineer or moving an engineer keeps the primary engineer and removes access to the old farm",
-                         "Saving a report no longer loses egg production or treatments when the connection drops"
+                         "Weight and FCR in visit reports come from the latest weighing, with its date",
+                         "Editing an old visit report keeps its own cycle number and type",
+                         "Only the vet and management can approve missing-day requests"
                      ],
     "changelog":  [
                       {
                           "category":  "التقارير",
                           "categoryEn":  "Reports",
                           "items":  [
-                                        "فترة السحب في تقارير الأيام الفائتة تُحسب من تاريخ التقرير",
-                                        "تنبيه واضح إذا لم يُضف إنتاج البيض إلى المخزن",
-                                        "طلب تسوية العلف لتقرير محذوف يُلغى تلقائياً"
+                                        "إذن اليوم الفائت يعود إذا فشل حفظ التقرير",
+                                        "رسائل تسوية العلف بالإنجليزية في الواجهة الإنجليزية"
                                     ],
                           "itemsEn":  [
-                                          "Withdrawal periods in backdated reports start from the report date",
-                                          "A clear warning if egg production was not added to the store",
-                                          "A feed adjustment request for a deleted report is cancelled automatically"
+                                          "A missing-day permission is restored if saving the report fails",
+                                          "Feed adjustment messages are in English in the English interface"
                                       ]
                       },
                       {
-                          "category":  "ويندوز",
-                          "categoryEn":  "Windows",
+                          "category":  "الأمان",
+                          "categoryEn":  "Security",
                           "items":  [
-                                        "قائمة أيقونة البرنامج بجانب الساعة تتبع لغة البرنامج"
+                                        "الحساب المعطّل لا يصل إلى تفاصيل تقارير المرور وإعدادات الإشعارات"
                                     ],
                           "itemsEn":  [
-                                          "The tray icon menu follows the app language"
+                                          "A deactivated account cannot reach visit report details or notification settings"
                                       ]
                       }
                   ],
