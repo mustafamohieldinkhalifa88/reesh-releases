@@ -1,54 +1,50 @@
 {
-    "version":  "2.38.0",
-    "build":  66,
-    "releaseDate":  "2026-11-16",
+    "version":  "2.39.0",
+    "build":  67,
+    "releaseDate":  "2026-11-17",
     "minRequiredVersion":  "2.8.0",
-    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.38.0/Reesh_setup.exe",
-    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.38.0/Reesh.apk",
-    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.38.0/Reesh_setup.exe",
-    "windowsSha256":  "d0830e5c9ad776f4f66d7430bae52751b5ecfd7a01f8ff05ec159cae586032f0",
-    "androidSha256":  "76522e014c80ce490ecbb8e71a14b4cf33d7c1f1444e668031a7b6b9039bd8a4",
-    "title":  "منظومة ريش v2.38.0 — الرعاية البيطرية وتحسينات الأمان",
-    "titleEn":  "Reesh ERP v2.38.0 — Vet Care and Security Improvements",
-    "summary":  "اسم «البرنامج الصحي» أصبح «الرعاية البيطرية» في كل مكان، مع إصلاحات في حدود الباقات والنسخ الاحتياطي والعهد المعتمدة وصلاحيات الحسابات.",
-    "summaryEn":  "The health program is now called Vet Care everywhere, with fixes to plan limits, backups, approved custody settlements and account permissions.",
+    "windowsUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.39.0/Reesh_setup.exe",
+    "androidApkUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.39.0/Reesh.apk",
+    "downloadUrl":  "https://github.com/mustafamohieldinkhalifa88/reesh-releases/releases/download/v2.39.0/Reesh_setup.exe",
+    "windowsSha256":  "28e05ee5e19770924ee731fb1c9e60781b59e348e20e1f62b267c1f0d9204528",
+    "androidSha256":  "1bf0edff134042132bba732784a74ce68ef76b7f4cc4b00a837dd40c69e0e009",
+    "title":  "منظومة ريش v2.39.0 — دقة التقارير وتعيين المهندسين",
+    "titleEn":  "Reesh ERP v2.39.0 — Report Accuracy and Engineer Assignment",
+    "summary":  "تعديل تقرير اليوم يحافظ على علامات الرعاية البيطرية، وتعيين المهندسين أدق، وحفظ التقرير لا يُضيع إنتاج البيض.",
+    "summaryEn":  "Editing today\u0027s report keeps vet care records, engineer assignment is more accurate, and saving a report no longer loses egg production.",
     "highlights":  [
-                       "«الرعاية البيطرية» بدلاً من «البرنامج الصحي» في التطبيق والإشعارات وتقارير المرور",
-                       "استعادة النسخة الاحتياطية تشمل المزارع المؤرشفة وتقارير المرور وإعدادات الإشعارات",
-                       "بنود العهدة المعتمدة لا يمكن تعديلها، وحدود الباقة تُحسب بدقة"
+                       "تعديل تقرير اليوم لا يمسح اللقاحات المسجلة فيه",
+                       "إضافة مهندس مساعد أو نقل مهندس لا يغيّر المهندس الرئيسي ولا يترك وصولاً للمزرعة القديمة",
+                       "حفظ التقرير لا يُضيع إنتاج البيض أو العلاجات عند انقطاع الشبكة"
                    ],
     "highlightsEn":  [
-                         "Vet Care replaces Health Program in the app, notifications and visit reports",
-                         "Backup restore now covers archived farms, visit reports and notification settings",
-                         "Approved custody items are locked and plan limits are counted accurately"
+                         "Editing today\u0027s report no longer erases its recorded vaccinations",
+                         "Adding a co-engineer or moving an engineer keeps the primary engineer and removes access to the old farm",
+                         "Saving a report no longer loses egg production or treatments when the connection drops"
                      ],
     "changelog":  [
                       {
-                          "category":  "الأمان والدقة",
-                          "categoryEn":  "Security and accuracy",
+                          "category":  "التقارير",
+                          "categoryEn":  "Reports",
                           "items":  [
-                                        "منع ترقية الحسابات لصلاحيات أعلى من المسموح",
-                                        "حساب حدود المزارع والعمال والحسابات بدقة عند التعديل",
-                                        "تطبيق التجديد المجدول تلقائياً قبل رفض الحفظ",
-                                        "حذف العامل أصبح أرشفة تحفظ سجلاته"
+                                        "فترة السحب في تقارير الأيام الفائتة تُحسب من تاريخ التقرير",
+                                        "تنبيه واضح إذا لم يُضف إنتاج البيض إلى المخزن",
+                                        "طلب تسوية العلف لتقرير محذوف يُلغى تلقائياً"
                                     ],
                           "itemsEn":  [
-                                          "Accounts can no longer be promoted beyond allowed roles",
-                                          "Farm, worker and account limits are counted accurately on edits",
-                                          "A scheduled renewal is applied before a save is rejected",
-                                          "Deleting a worker now archives it and keeps its records"
+                                          "Withdrawal periods in backdated reports start from the report date",
+                                          "A clear warning if egg production was not added to the store",
+                                          "A feed adjustment request for a deleted report is cancelled automatically"
                                       ]
                       },
                       {
-                          "category":  "النسخ الاحتياطي",
-                          "categoryEn":  "Backup",
+                          "category":  "ويندوز",
+                          "categoryEn":  "Windows",
                           "items":  [
-                                        "استعادة بيانات المزارع المؤرشفة وتقارير المرور وإعدادات الإشعارات",
-                                        "لا تُستهلك موافقة الاستعادة إلا بعد نجاحها"
+                                        "قائمة أيقونة البرنامج بجانب الساعة تتبع لغة البرنامج"
                                     ],
                           "itemsEn":  [
-                                          "Restore covers archived farms, visit reports and notification settings",
-                                          "A restore approval is used up only after the restore succeeds"
+                                          "The tray icon menu follows the app language"
                                       ]
                       }
                   ],
